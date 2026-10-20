@@ -1,0 +1,46 @@
+[
+  {
+    "id": "data-edit-actions-documentservice-md-exists",
+    "category": "structural",
+    "target": "data/Edit_Actions/DocumentService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-edit-actions-documentcontroller-md-exists",
+    "category": "structural",
+    "target": "data/Edit_Actions/DocumentController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-document",
+    "category": "structural",
+    "target": "data/Edit_Actions/DocumentService.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Document"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Document\" entity."
+  },
+  {
+    "id": "schema-declares-section",
+    "category": "structural",
+    "target": "data/Edit_Actions/DocumentService.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Section"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Section\" entity."
+  },
+  {
+    "id": "schema-declares-activitylog",
+    "category": "structural",
+    "target": "data/Edit_Actions/DocumentService.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "ActivityLog"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"ActivityLog\" entity."
+  }
+]

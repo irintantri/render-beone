@@ -1,0 +1,23 @@
+[
+  {
+    "id": "frontend-02-icf-dashboard-icfdashboard-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/ICFDashboard.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-actionbuttons-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/ActionButtons.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-statusbadge-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/StatusBadge.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

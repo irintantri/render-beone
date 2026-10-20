@@ -1,0 +1,16 @@
+[
+  {
+    "id": "frontend-01-onboarding-welcomescreen-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/WelcomeScreen.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-hooks-useusercontext-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/hooks_useUserContext.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

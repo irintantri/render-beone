@@ -1,0 +1,23 @@
+[
+  {
+    "id": "components-review-actions-reviewactionbar-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Review_Actions/ReviewActionBar.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-review-actions-versionservice-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Review_Actions/VersionService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-review-actions-usereviewactions-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Review_Actions/useReviewActions.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  }
+]

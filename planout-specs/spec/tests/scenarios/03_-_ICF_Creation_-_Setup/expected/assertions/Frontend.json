@@ -1,0 +1,23 @@
+[
+  {
+    "id": "frontend-03-icf-creation-setup-icfsetuppage-md-exists",
+    "category": "structural",
+    "target": "Frontend/03_-_ICF_Creation_-_Setup/ICFSetupPage.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-03-icf-creation-setup-hooks-apihooks-md-exists",
+    "category": "structural",
+    "target": "Frontend/03_-_ICF_Creation_-_Setup/hooks_apiHooks.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-03-icf-creation-setup-components-referencedocuments-md-exists",
+    "category": "structural",
+    "target": "Frontend/03_-_ICF_Creation_-_Setup/components_ReferenceDocuments.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

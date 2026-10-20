@@ -1,0 +1,23 @@
+[
+  {
+    "id": "components-bottom-bar-setup-bottombarsetup-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Bottom_Bar_-_Setup/BottomBarSetup.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-bottom-bar-setup-icfservice-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Bottom_Bar_-_Setup/ICFService.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-bottom-bar-setup-icfprogressview-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Bottom_Bar_-_Setup/ICFProgressView.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  }
+]

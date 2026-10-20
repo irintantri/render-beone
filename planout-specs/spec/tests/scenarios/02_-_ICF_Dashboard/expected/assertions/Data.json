@@ -1,0 +1,46 @@
+[
+  {
+    "id": "data-02-icf-dashboard-dashboardrepository-md-exists",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/DashboardRepository.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "data-02-icf-dashboard-dashboardcontroller-md-exists",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/DashboardController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
+  },
+  {
+    "id": "schema-declares-protocol",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/DashboardRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "Protocol"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"Protocol\" entity."
+  },
+  {
+    "id": "schema-declares-icf",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/DashboardRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "ICF"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"ICF\" entity."
+  },
+  {
+    "id": "schema-declares-icffile",
+    "category": "structural",
+    "target": "Data/02_-_ICF_Dashboard/DashboardRepository.md",
+    "check": "schema_block_present",
+    "args": {
+      "entity": "ICFFile"
+    },
+    "rationale": "Data-tier SCHEMA block must declare the \"ICFFile\" entity."
+  }
+]
