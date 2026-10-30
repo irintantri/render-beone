@@ -1,22 +1,15 @@
 [
   {
-    "id": "data-edit-actions-documentservice-md-exists",
+    "id": "data-edit-actions-documentrepository-md-exists",
     "category": "structural",
-    "target": "data/Edit_Actions/DocumentService.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"data\" emitted this pseudocode file."
-  },
-  {
-    "id": "data-edit-actions-documentcontroller-md-exists",
-    "category": "structural",
-    "target": "data/Edit_Actions/DocumentController.md",
+    "target": "data/Edit_Actions/DocumentRepository.md",
     "check": "file_exists",
     "rationale": "Swimlane \"data\" emitted this pseudocode file."
   },
   {
     "id": "schema-declares-document",
     "category": "structural",
-    "target": "data/Edit_Actions/DocumentService.md",
+    "target": "data/Edit_Actions/DocumentRepository.md",
     "check": "schema_block_present",
     "args": {
       "entity": "Document"
@@ -26,7 +19,7 @@
   {
     "id": "schema-declares-section",
     "category": "structural",
-    "target": "data/Edit_Actions/DocumentService.md",
+    "target": "data/Edit_Actions/DocumentRepository.md",
     "check": "schema_block_present",
     "args": {
       "entity": "Section"
@@ -36,7 +29,7 @@
   {
     "id": "schema-declares-activitylog",
     "category": "structural",
-    "target": "data/Edit_Actions/DocumentService.md",
+    "target": "data/Edit_Actions/DocumentRepository.md",
     "check": "schema_block_present",
     "args": {
       "entity": "ActivityLog"

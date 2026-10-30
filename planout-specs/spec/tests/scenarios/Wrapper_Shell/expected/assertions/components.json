@@ -1,15 +1,8 @@
 [
   {
-    "id": "components-wrapper-shell-usewrappercontext-md-exists",
+    "id": "components-wrapper-shell-usewrapperdata-md-exists",
     "category": "structural",
-    "target": "components/Wrapper_Shell/useWrapperContext.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"components\" emitted this pseudocode file."
-  },
-  {
-    "id": "components-wrapper-shell-wrappershell-md-exists",
-    "category": "structural",
-    "target": "components/Wrapper_Shell/WrapperShell.md",
+    "target": "components/Wrapper_Shell/useWrapperData.md",
     "check": "file_exists",
     "rationale": "Swimlane \"components\" emitted this pseudocode file."
   },
@@ -17,6 +10,13 @@
     "id": "components-wrapper-shell-breadcrumbsubbar-md-exists",
     "category": "structural",
     "target": "components/Wrapper_Shell/BreadcrumbSubBar.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-wrapper-shell-wrappershell-md-exists",
+    "category": "structural",
+    "target": "components/Wrapper_Shell/WrapperShell.md",
     "check": "file_exists",
     "rationale": "Swimlane \"components\" emitted this pseudocode file."
   }

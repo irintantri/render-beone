@@ -1,15 +1,15 @@
 [
   {
-    "id": "logic-07-icf-creation-preview-icfpreviewcontroller-md-exists",
+    "id": "logic-07-icf-creation-preview-icflogic-md-exists",
     "category": "structural",
-    "target": "Logic/07_-_ICF_Creation_-_Preview/ICFPreviewController.md",
+    "target": "Logic/07_-_ICF_Creation_-_Preview/ICFLogic.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "Logic/07_-_ICF_Creation_-_Preview/ICFPreviewController.md",
+    "target": "Logic/07_-_ICF_Creation_-_Preview/ICFLogic.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

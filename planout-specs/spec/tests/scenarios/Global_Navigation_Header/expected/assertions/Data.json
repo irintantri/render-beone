@@ -1,26 +1,19 @@
 [
   {
-    "id": "data-global-navigation-header-usercontextservice-md-exists",
+    "id": "data-global-navigation-header-usercontextrepository-md-exists",
     "category": "structural",
-    "target": "Data/Global_Navigation_Header/UserContextService.md",
+    "target": "Data/Global_Navigation_Header/UserContextRepository.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Data\" emitted this pseudocode file."
   },
   {
-    "id": "data-global-navigation-header-usercontroller-md-exists",
+    "id": "schema-declares-usercontext",
     "category": "structural",
-    "target": "Data/Global_Navigation_Header/UserController.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
-  },
-  {
-    "id": "schema-declares-user",
-    "category": "structural",
-    "target": "Data/Global_Navigation_Header/UserContextService.md",
+    "target": "Data/Global_Navigation_Header/UserContextRepository.md",
     "check": "schema_block_present",
     "args": {
-      "entity": "User"
+      "entity": "UserContext"
     },
-    "rationale": "Data-tier SCHEMA block must declare the \"User\" entity."
+    "rationale": "Data-tier SCHEMA block must declare the \"UserContext\" entity."
   }
 ]

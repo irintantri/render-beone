@@ -5,19 +5,5 @@
     "target": "COMPONENTS/Bottom_Bar_-_Generate/BottomBarGenerate.md",
     "check": "file_exists",
     "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
-  },
-  {
-    "id": "components-bottom-bar-generate-usenavigation-md-exists",
-    "category": "structural",
-    "target": "COMPONENTS/Bottom_Bar_-_Generate/useNavigation.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
-  },
-  {
-    "id": "components-bottom-bar-generate-navigationapi-md-exists",
-    "category": "structural",
-    "target": "COMPONENTS/Bottom_Bar_-_Generate/NavigationAPI.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
   }
 ]

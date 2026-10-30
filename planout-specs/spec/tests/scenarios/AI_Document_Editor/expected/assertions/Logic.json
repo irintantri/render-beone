@@ -1,22 +1,22 @@
 [
   {
-    "id": "logic-ai-document-editor-aieditorcontroller-md-exists",
+    "id": "logic-ai-document-editor-airewriteservice-md-exists",
     "category": "structural",
-    "target": "Logic/AI_Document_Editor/AIEditorController.md",
+    "target": "Logic/AI_Document_Editor/AIRewriteService.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-ai-document-editor-airouter-md-exists",
+    "id": "logic-ai-document-editor-aieditedsectionschema-md-exists",
     "category": "structural",
-    "target": "Logic/AI_Document_Editor/AIRouter.md",
+    "target": "Logic/AI_Document_Editor/AIEditedSectionSchema.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "Logic/AI_Document_Editor/AIEditorController.md",
+    "target": "Logic/AI_Document_Editor/AIRewriteService.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

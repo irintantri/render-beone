@@ -1,46 +1,29 @@
 [
   {
-    "id": "data-02-icf-dashboard-dashboardrepository-md-exists",
+    "id": "data-02-icf-dashboard-dashboarddataservice-md-exists",
     "category": "structural",
-    "target": "Data/02_-_ICF_Dashboard/DashboardRepository.md",
+    "target": "Data/02_-_ICF_Dashboard/DashboardDataService.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Data\" emitted this pseudocode file."
   },
   {
-    "id": "data-02-icf-dashboard-dashboardcontroller-md-exists",
+    "id": "schema-declares-dashboardstats",
     "category": "structural",
-    "target": "Data/02_-_ICF_Dashboard/DashboardController.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
-  },
-  {
-    "id": "schema-declares-protocol",
-    "category": "structural",
-    "target": "Data/02_-_ICF_Dashboard/DashboardRepository.md",
+    "target": "Data/02_-_ICF_Dashboard/DashboardDataService.md",
     "check": "schema_block_present",
     "args": {
-      "entity": "Protocol"
+      "entity": "DashboardStats"
     },
-    "rationale": "Data-tier SCHEMA block must declare the \"Protocol\" entity."
+    "rationale": "Data-tier SCHEMA block must declare the \"DashboardStats\" entity."
   },
   {
-    "id": "schema-declares-icf",
+    "id": "schema-declares-dashboardrow",
     "category": "structural",
-    "target": "Data/02_-_ICF_Dashboard/DashboardRepository.md",
+    "target": "Data/02_-_ICF_Dashboard/DashboardDataService.md",
     "check": "schema_block_present",
     "args": {
-      "entity": "ICF"
+      "entity": "DashboardRow"
     },
-    "rationale": "Data-tier SCHEMA block must declare the \"ICF\" entity."
-  },
-  {
-    "id": "schema-declares-icffile",
-    "category": "structural",
-    "target": "Data/02_-_ICF_Dashboard/DashboardRepository.md",
-    "check": "schema_block_present",
-    "args": {
-      "entity": "ICFFile"
-    },
-    "rationale": "Data-tier SCHEMA block must declare the \"ICFFile\" entity."
+    "rationale": "Data-tier SCHEMA block must declare the \"DashboardRow\" entity."
   }
 ]

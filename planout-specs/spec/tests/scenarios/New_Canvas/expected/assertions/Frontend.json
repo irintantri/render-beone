@@ -1,0 +1,9 @@
+[
+  {
+    "id": "frontend-new-canvas-profilesection-md-exists",
+    "category": "structural",
+    "target": "Frontend/New_Canvas/ProfileSection.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  }
+]

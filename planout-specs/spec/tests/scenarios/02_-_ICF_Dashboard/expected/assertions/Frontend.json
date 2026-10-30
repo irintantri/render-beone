@@ -1,22 +1,113 @@
 [
   {
-    "id": "frontend-02-icf-dashboard-icfdashboard-md-exists",
+    "id": "frontend-02-icf-dashboard-dashboardpage-md-exists",
     "category": "structural",
-    "target": "Frontend/02_-_ICF_Dashboard/ICFDashboard.md",
+    "target": "Frontend/02_-_ICF_Dashboard/DashboardPage.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
   },
   {
-    "id": "frontend-02-icf-dashboard-actionbuttons-md-exists",
+    "id": "frontend-02-icf-dashboard-pageheader-md-exists",
     "category": "structural",
-    "target": "Frontend/02_-_ICF_Dashboard/ActionButtons.md",
+    "target": "Frontend/02_-_ICF_Dashboard/PageHeader.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
   },
   {
-    "id": "frontend-02-icf-dashboard-statusbadge-md-exists",
+    "id": "frontend-02-icf-dashboard-statisticscards-md-exists",
     "category": "structural",
-    "target": "Frontend/02_-_ICF_Dashboard/StatusBadge.md",
+    "target": "Frontend/02_-_ICF_Dashboard/StatisticsCards.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-sortabledatatable-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/SortableDataTable.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-sorting-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/Sorting.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-actions-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/Actions.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-pageheader-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/PageHeader.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-globalnav-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/GlobalNav.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-dashboardtable-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/DashboardTable.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-statscards-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/StatsCards.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-tablesorting-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/TableSorting.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-rowactions-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/RowActions.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-icfeditrefine-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/ICFEditRefine.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-headerlogo-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/HeaderLogo.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-searchcomponent-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/SearchComponent.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-02-icf-dashboard-searchhook-md-exists",
+    "category": "structural",
+    "target": "Frontend/02_-_ICF_Dashboard/SearchHook.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
   }

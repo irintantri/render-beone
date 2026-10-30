@@ -1,22 +1,15 @@
 [
   {
-    "id": "components-review-actions-reviewactionbar-md-exists",
+    "id": "components-review-actions-documentreviewbar-md-exists",
     "category": "structural",
-    "target": "COMPONENTS/Review_Actions/ReviewActionBar.md",
+    "target": "COMPONENTS/Review_Actions/DocumentReviewBar.md",
     "check": "file_exists",
     "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
   },
   {
-    "id": "components-review-actions-versionservice-md-exists",
+    "id": "components-review-actions-documentlogic-md-exists",
     "category": "structural",
-    "target": "COMPONENTS/Review_Actions/VersionService.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
-  },
-  {
-    "id": "components-review-actions-usereviewactions-md-exists",
-    "category": "structural",
-    "target": "COMPONENTS/Review_Actions/useReviewActions.md",
+    "target": "COMPONENTS/Review_Actions/DocumentLogic.md",
     "check": "file_exists",
     "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
   }

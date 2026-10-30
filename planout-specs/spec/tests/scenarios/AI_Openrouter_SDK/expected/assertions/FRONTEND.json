@@ -1,22 +1,8 @@
 [
   {
-    "id": "frontend-ai-openrouter-sdk-documentgenerationform-md-exists",
+    "id": "frontend-ai-openrouter-sdk-documentprocessor-md-exists",
     "category": "structural",
-    "target": "FRONTEND/AI_Openrouter_SDK/DocumentGenerationForm.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"FRONTEND\" emitted this pseudocode file."
-  },
-  {
-    "id": "frontend-ai-openrouter-sdk-hooks-usedocumentgeneration-md-exists",
-    "category": "structural",
-    "target": "FRONTEND/AI_Openrouter_SDK/hooks_useDocumentGeneration.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"FRONTEND\" emitted this pseudocode file."
-  },
-  {
-    "id": "frontend-ai-openrouter-sdk-documentdisplay-md-exists",
-    "category": "structural",
-    "target": "FRONTEND/AI_Openrouter_SDK/DocumentDisplay.md",
+    "target": "FRONTEND/AI_Openrouter_SDK/DocumentProcessor.md",
     "check": "file_exists",
     "rationale": "Swimlane \"FRONTEND\" emitted this pseudocode file."
   }

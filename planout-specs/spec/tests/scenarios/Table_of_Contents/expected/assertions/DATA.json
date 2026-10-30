@@ -7,13 +7,6 @@
     "rationale": "Swimlane \"DATA\" emitted this pseudocode file."
   },
   {
-    "id": "data-table-of-contents-documentcontroller-md-exists",
-    "category": "structural",
-    "target": "DATA/Table_of_Contents/DocumentController.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"DATA\" emitted this pseudocode file."
-  },
-  {
     "id": "schema-declares-document",
     "category": "structural",
     "target": "DATA/Table_of_Contents/DocumentRepository.md",

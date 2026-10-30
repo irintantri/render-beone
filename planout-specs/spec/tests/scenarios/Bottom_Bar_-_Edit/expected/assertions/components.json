@@ -7,9 +7,23 @@
     "rationale": "Swimlane \"components\" emitted this pseudocode file."
   },
   {
-    "id": "components-bottom-bar-edit-documentservice-md-exists",
+    "id": "components-bottom-bar-edit-documentlogic-md-exists",
     "category": "structural",
-    "target": "components/Bottom_Bar_-_Edit/DocumentService.md",
+    "target": "components/Bottom_Bar_-_Edit/DocumentLogic.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-bottom-bar-edit-icfreviewview-md-exists",
+    "category": "structural",
+    "target": "components/Bottom_Bar_-_Edit/ICFReviewView.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-bottom-bar-edit-icfsetupwizard-md-exists",
+    "category": "structural",
+    "target": "components/Bottom_Bar_-_Edit/ICFSetupWizard.md",
     "check": "file_exists",
     "rationale": "Swimlane \"components\" emitted this pseudocode file."
   }

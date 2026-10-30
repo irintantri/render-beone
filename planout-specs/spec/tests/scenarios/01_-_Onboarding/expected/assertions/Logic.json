@@ -7,13 +7,6 @@
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-01-onboarding-useuseronboarding-md-exists",
-    "category": "structural",
-    "target": "Logic/01_-_Onboarding/useUserOnboarding.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
-  },
-  {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
     "target": "Logic/01_-_Onboarding/UserController.md",

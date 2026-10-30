@@ -1,22 +1,15 @@
 [
   {
-    "id": "logic-table-of-contents-tableofcontentsservice-md-exists",
+    "id": "logic-table-of-contents-sectionservice-md-exists",
     "category": "structural",
-    "target": "LOGIC/Table_of_Contents/TableOfContentsService.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"LOGIC\" emitted this pseudocode file."
-  },
-  {
-    "id": "logic-table-of-contents-tableofcontentscontroller-md-exists",
-    "category": "structural",
-    "target": "LOGIC/Table_of_Contents/TableOfContentsController.md",
+    "target": "LOGIC/Table_of_Contents/SectionService.md",
     "check": "file_exists",
     "rationale": "Swimlane \"LOGIC\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "LOGIC/Table_of_Contents/TableOfContentsService.md",
+    "target": "LOGIC/Table_of_Contents/SectionService.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

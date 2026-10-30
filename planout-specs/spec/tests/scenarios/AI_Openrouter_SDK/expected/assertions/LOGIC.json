@@ -1,22 +1,15 @@
 [
   {
-    "id": "logic-ai-openrouter-sdk-documentservice-md-exists",
+    "id": "logic-ai-openrouter-sdk-documentprocessor-md-exists",
     "category": "structural",
-    "target": "LOGIC/AI_Openrouter_SDK/documentService.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"LOGIC\" emitted this pseudocode file."
-  },
-  {
-    "id": "logic-ai-openrouter-sdk-documentparser-md-exists",
-    "category": "structural",
-    "target": "LOGIC/AI_Openrouter_SDK/documentParser.md",
+    "target": "LOGIC/AI_Openrouter_SDK/DocumentProcessor.md",
     "check": "file_exists",
     "rationale": "Swimlane \"LOGIC\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "LOGIC/AI_Openrouter_SDK/documentService.md",
+    "target": "LOGIC/AI_Openrouter_SDK/DocumentProcessor.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

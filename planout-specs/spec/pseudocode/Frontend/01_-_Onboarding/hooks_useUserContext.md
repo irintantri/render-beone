@@ -1,25 +1,35 @@
-import { useEffect, useState } from 'react';
+/**
+ * Logic Node: GET /users/me (id: f358e2c8-39b1-4889-8db4-5528738310fe)
+ * Interface: Cross-lane call to Logic swimlane.
+ */
 
 export const useUserContext = () => {
-  const [user, setUser] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [state, setState] = useState({ user: null, taskCounts: null, isLoading: true, error: null });
 
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        // API CALL: GET /users/me
-        const response = await fetch('/users/me');
+        // API Call: GET /users/me
+        const response = await fetch('/users/me', { method: 'GET' });
         const data = await response.json();
-        setUser(data);
+        
+        setState({
+          user: { 
+            firstName: data.firstName, 
+            lastName: data.lastName, 
+            role: data.role, 
+            secondaryRole: data.secondaryRole 
+          },
+          taskCounts: data.taskCounts, // <!-- ORPHAN_FIELD: taskCounts (inferred from response body) -->
+          isLoading: false,
+          error: null
+        });
       } catch (err) {
-        console.error("Failed to fetch user profile", err);
-      } finally {
-        setIsLoading(false);
+        setState({ ...state, isLoading: false, error: err });
       }
     };
-
     fetchProfile();
   }, []);
 
-  return { user, isLoading };
+  return state;
 };

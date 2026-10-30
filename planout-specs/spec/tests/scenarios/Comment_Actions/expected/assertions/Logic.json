@@ -1,29 +1,22 @@
 [
   {
-    "id": "logic-comment-actions-commentservice-md-exists",
+    "id": "logic-comment-actions-reviewercontroller-md-exists",
     "category": "structural",
-    "target": "Logic/Comment_Actions/CommentService.md",
+    "target": "Logic/Comment_Actions/ReviewerController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-comment-actions-reviewerservice-md-exists",
+    "id": "logic-comment-actions-commentcontroller-md-exists",
     "category": "structural",
-    "target": "Logic/Comment_Actions/ReviewerService.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
-  },
-  {
-    "id": "logic-comment-actions-approvallogic-md-exists",
-    "category": "structural",
-    "target": "Logic/Comment_Actions/ApprovalLogic.md",
+    "target": "Logic/Comment_Actions/CommentController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "Logic/Comment_Actions/CommentService.md",
+    "target": "Logic/Comment_Actions/ReviewerController.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

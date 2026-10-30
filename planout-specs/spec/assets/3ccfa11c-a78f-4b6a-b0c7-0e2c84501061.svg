@@ -1,0 +1,436 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 832" font-family="Arial,sans-serif" font-size="12" width="1320" height="832">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#666"/>
+    </marker>
+  </defs>
+
+  <!-- Top Nav Bar -->
+  <g id="nav-bar">
+    <rect x="0" y="0" width="1320" height="24" fill="#2d3e50"/>
+  </g>
+  <g id="nav-dashboard">
+    <rect x="0" y="0" width="90" height="24" fill="#3a4f63"/>
+    <text x="45" y="16" fill="#fff" text-anchor="middle">Dashboard</text>
+  </g>
+  <g id="nav-sales">
+    <rect x="90" y="0" width="70" height="24" fill="#2d3e50"/>
+    <text x="125" y="16" fill="#fff" text-anchor="middle">Sales</text>
+  </g>
+  <g id="nav-customers">
+    <rect x="160" y="0" width="90" height="24" fill="#2d3e50"/>
+    <text x="205" y="16" fill="#fff" text-anchor="middle">Customers</text>
+  </g>
+  <g id="nav-suppliers">
+    <rect x="250" y="0" width="80" height="24" fill="#2d3e50"/>
+    <text x="290" y="16" fill="#fff" text-anchor="middle">Suppliers</text>
+  </g>
+  <g id="nav-products">
+    <rect x="330" y="0" width="80" height="24" fill="#4a7fa5"/>
+    <text x="370" y="16" fill="#fff" text-anchor="middle">Products</text>
+  </g>
+  <g id="nav-inventory">
+    <rect x="410" y="0" width="80" height="24" fill="#2d3e50"/>
+    <text x="450" y="16" fill="#fff" text-anchor="middle">Inventory</text>
+  </g>
+  <g id="nav-finance">
+    <rect x="490" y="0" width="70" height="24" fill="#2d3e50"/>
+    <text x="525" y="16" fill="#fff" text-anchor="middle">Finance</text>
+  </g>
+  <g id="nav-accounting">
+    <rect x="560" y="0" width="90" height="24" fill="#2d3e50"/>
+    <text x="605" y="16" fill="#fff" text-anchor="middle">Accounting</text>
+  </g>
+  <g id="nav-reports">
+    <rect x="650" y="0" width="70" height="24" fill="#2d3e50"/>
+    <text x="685" y="16" fill="#fff" text-anchor="middle">Reports</text>
+  </g>
+  <g id="nav-setup">
+    <rect x="720" y="0" width="60" height="24" fill="#2d3e50"/>
+    <text x="750" y="16" fill="#fff" text-anchor="middle">Setup</text>
+  </g>
+  <g id="nav-userguide">
+    <rect x="780" y="0" width="90" height="24" fill="#2d3e50"/>
+    <text x="825" y="16" fill="#fff" text-anchor="middle">User Guide</text>
+  </g>
+  <g id="nav-search">
+    <rect x="1020" y="2" width="80" height="20" fill="#3a4f63" rx="3"/>
+    <text x="1060" y="16" fill="#ccc" text-anchor="middle">Ctrl K</text>
+  </g>
+  <g id="nav-notif">
+    <text x="1130" y="16" fill="#fff">🔔</text>
+  </g>
+  <g id="nav-user">
+    <text x="1160" y="16" fill="#fff">TRAINING - DOMO ▼</text>
+  </g>
+
+  <!-- Sub Nav Bar -->
+  <g id="subnav-bar">
+    <rect x="0" y="24" width="1320" height="28" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+  </g>
+  <g id="subnav-products">
+    <text x="40" y="43" fill="#333">Products ▼</text>
+  </g>
+  <g id="subnav-pricebooks">
+    <text x="110" y="43" fill="#333">Pricebooks ▼</text>
+  </g>
+  <g id="subnav-vouchers">
+    <text x="195" y="43" fill="#333">Vouchers ▼</text>
+  </g>
+  <g id="subnav-pricelists">
+    <text x="265" y="43" fill="#333">Pricelists</text>
+  </g>
+  <g id="subnav-price-schedules">
+    <text x="330" y="43" fill="#333">Price Schedules</text>
+  </g>
+  <g id="subnav-price-trackings">
+    <text x="430" y="43" fill="#333">Price Trackings ▼</text>
+  </g>
+  <g id="subnav-types">
+    <text x="530" y="43" fill="#333">Types ▼</text>
+  </g>
+  <g id="subnav-product-brands">
+    <text x="580" y="43" fill="#333">Product Brands</text>
+  </g>
+  <g id="subnav-tags">
+    <text x="665" y="43" fill="#333">Tags ▼</text>
+  </g>
+
+  <!-- Page Title -->
+  <g id="page-title">
+    <rect x="0" y="52" width="1320" height="30" fill="#fff"/>
+    <text x="28" y="72" fill="#e67e22" font-size="14">🏷</text>
+    <text x="45" y="72" fill="#333" font-size="16" font-weight="bold">Products</text>
+    <text x="110" y="72" fill="#f0c040" font-size="14">★</text>
+  </g>
+
+  <!-- Tab Active/Inactive -->
+  <g id="tab-active">
+    <rect x="22" y="88" width="65" height="26" fill="#4a7fa5" rx="3"/>
+    <text x="54" y="105" fill="#fff" text-anchor="middle">Active</text>
+  </g>
+  <g id="tab-inactive">
+    <rect x="90" y="88" width="70" height="26" fill="#e0e0e0" rx="3"/>
+    <text x="125" y="105" fill="#555" text-anchor="middle">Inactive</text>
+  </g>
+
+  <!-- Filter Row 1 -->
+  <g id="filter-bar">
+    <rect x="22" y="122" width="1280" height="124" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  </g>
+  <g id="filter-sku">
+    <rect x="30" y="130" width="140" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="38" y="148" fill="#aaa">SKU</text>
+  </g>
+  <g id="filter-name">
+    <rect x="178" y="130" width="200" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="186" y="148" fill="#aaa">Name (Contain)</text>
+  </g>
+  <g id="filter-product-code">
+    <rect x="386" y="130" width="180" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="394" y="148" fill="#aaa">Product Code</text>
+  </g>
+  <g id="filter-product-brand">
+    <rect x="574" y="130" width="180" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="582" y="148" fill="#aaa">Product Brand</text>
+    <text x="742" y="148" fill="#aaa">▼</text>
+  </g>
+  <g id="filter-product-type">
+    <rect x="762" y="130" width="180" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="770" y="148" fill="#aaa">Product Type</text>
+    <text x="930" y="148" fill="#aaa">▼</text>
+  </g>
+  <g id="filter-tax">
+    <rect x="950" y="130" width="150" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="958" y="148" fill="#aaa">Tax</text>
+    <text x="1088" y="148" fill="#aaa">▼</text>
+  </g>
+  <g id="filter-all-tags">
+    <rect x="1108" y="130" width="185" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="1116" y="148" fill="#aaa">All Tags</text>
+  </g>
+
+  <!-- Filter Row 2 -->
+  <g id="filter-kategori">
+    <rect x="30" y="165" width="140" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="38" y="183" fill="#aaa">Kategori Item</text>
+  </g>
+  <g id="filter-unit-bisnis">
+    <rect x="178" y="165" width="180" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="186" y="183" fill="#aaa">Unit Bisnis</text>
+  </g>
+  <g id="filter-tipe-mobil">
+    <rect x="366" y="165" width="180" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="374" y="183" fill="#aaa">Tipe Mobil</text>
+  </g>
+  <g id="filter-product-settings">
+    <rect x="554" y="165" width="230" height="28" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="562" y="183" fill="#aaa">Product Settings</text>
+  </g>
+  <g id="btn-search">
+    <rect x="795" y="165" width="90" height="28" fill="#f5f5f5" stroke="#ccc" stroke-width="1" rx="3"/>
+    <text x="840" y="183" fill="#333" text-anchor="middle">🔍 Search</text>
+  </g>
+
+  <!-- Table Header -->
+  <g id="table-header">
+    <rect x="22" y="200" width="1280" height="32" fill="#f8f8f8" stroke="#ddd" stroke-width="1"/>
+    <text x="30" y="220" fill="#2980b9" font-weight="bold">SKU</text>
+    <text x="148" y="220" fill="#2980b9" font-weight="bold">Name</text>
+    <text x="610" y="220" fill="#2980b9" font-weight="bold">Product Code</text>
+    <text x="730" y="220" fill="#2980b9" font-weight="bold">Brand</text>
+    <text x="840" y="220" fill="#2980b9" font-weight="bold">Type</text>
+    <text x="935" y="220" fill="#2980b9" font-weight="bold">Tags</text>
+    <text x="985" y="220" fill="#2980b9" font-weight="bold">Tracking</text>
+    <text x="1052" y="220" fill="#2980b9" font-weight="bold">Bundle</text>
+    <text x="1105" y="220" fill="#2980b9" font-weight="bold">Bundle Flexible</text>
+    <text x="1175" y="220" fill="#2980b9" font-weight="bold">Tax</text>
+    <text x="1240" y="220" fill="#2980b9" font-weight="bold">Price (Rp)</text>
+  </g>
+
+  <!-- Row 1 -->
+  <g id="row1-sku"><rect x="22" y="232" width="120" height="24" fill="#fff"/><text x="30" y="248" fill="#2980b9">1010300001</text></g>
+  <g id="row1-name"><rect x="142" y="232" width="560" height="24" fill="#fff"/><text x="148" y="248" fill="#2980b9">C-668</text></g>
+  <g id="row1-brand"><rect x="720" y="232" width="110" height="24" fill="#fff"/><text x="730" y="248" fill="#333">CARSPEED</text></g>
+  <g id="row1-type"><rect x="830" y="232" width="100" height="24" fill="#fff"/><text x="840" y="248" fill="#333">NEYTECH</text></g>
+  <g id="row1-tags"><rect x="930" y="232" width="50" height="24" fill="#fff"/></g>
+  <g id="row1-tracking"><rect x="980" y="232" width="65" height="24" fill="#fff"/><text x="1012" y="248" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row1-bundle"><rect x="1045" y="232" width="55" height="24" fill="#fff"/><text x="1072" y="248" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row1-bundle-flex"><rect x="1100" y="232" width="70" height="24" fill="#fff"/><text x="1135" y="248" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row1-tax"><rect x="1170" y="232" width="60" height="24" fill="#fff"/><text x="1178" y="248" fill="#333">PPN</text></g>
+  <g id="row1-price"><rect x="1230" y="232" width="72" height="24" fill="#fff"/><text x="1295" y="248" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 2 -->
+  <g id="row2-sku"><rect x="22" y="256" width="120" height="24" fill="#f9f9f9"/><text x="30" y="272" fill="#2980b9">1010300002</text></g>
+  <g id="row2-name"><rect x="142" y="256" width="560" height="24" fill="#f9f9f9"/><text x="148" y="272" fill="#2980b9">C5020</text></g>
+  <g id="row2-brand"><rect x="720" y="256" width="110" height="24" fill="#f9f9f9"/><text x="730" y="272" fill="#333">CARSPEED</text></g>
+  <g id="row2-type"><rect x="830" y="256" width="100" height="24" fill="#f9f9f9"/><text x="840" y="272" fill="#333">DOMO</text></g>
+  <g id="row2-tags"><rect x="930" y="256" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row2-tracking"><rect x="980" y="256" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="272" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row2-bundle"><rect x="1045" y="256" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="272" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row2-bundle-flex"><rect x="1100" y="256" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="272" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row2-tax"><rect x="1170" y="256" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="272" fill="#333">PPN</text></g>
+  <g id="row2-price"><rect x="1230" y="256" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="272" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 3 -->
+  <g id="row3-sku"><rect x="22" y="280" width="120" height="24" fill="#fff"/><text x="30" y="296" fill="#2980b9">1010300003</text></g>
+  <g id="row3-name"><rect x="142" y="280" width="560" height="24" fill="#fff"/><text x="148" y="296" fill="#2980b9">M-5857</text></g>
+  <g id="row3-brand"><rect x="720" y="280" width="110" height="24" fill="#fff"/><text x="730" y="296" fill="#333">CARSPEED</text></g>
+  <g id="row3-type"><rect x="830" y="280" width="100" height="24" fill="#fff"/><text x="840" y="296" fill="#333">NEYTECH</text></g>
+  <g id="row3-tags"><rect x="930" y="280" width="50" height="24" fill="#fff"/></g>
+  <g id="row3-tracking"><rect x="980" y="280" width="65" height="24" fill="#fff"/><text x="1012" y="296" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row3-bundle"><rect x="1045" y="280" width="55" height="24" fill="#fff"/><text x="1072" y="296" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row3-bundle-flex"><rect x="1100" y="280" width="70" height="24" fill="#fff"/><text x="1135" y="296" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row3-tax"><rect x="1170" y="280" width="60" height="24" fill="#fff"/><text x="1178" y="296" fill="#333">PPN</text></g>
+  <g id="row3-price"><rect x="1230" y="280" width="72" height="24" fill="#fff"/><text x="1295" y="296" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 4 -->
+  <g id="row4-sku"><rect x="22" y="304" width="120" height="24" fill="#f9f9f9"/><text x="30" y="320" fill="#2980b9">1010300004</text></g>
+  <g id="row4-name"><rect x="142" y="304" width="560" height="24" fill="#f9f9f9"/><text x="148" y="320" fill="#2980b9">M-5858</text></g>
+  <g id="row4-brand"><rect x="720" y="304" width="110" height="24" fill="#f9f9f9"/><text x="730" y="320" fill="#333">CARSPEED</text></g>
+  <g id="row4-type"><rect x="830" y="304" width="100" height="24" fill="#f9f9f9"/><text x="840" y="320" fill="#333">NEYTECH</text></g>
+  <g id="row4-tags"><rect x="930" y="304" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row4-tracking"><rect x="980" y="304" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="320" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row4-bundle"><rect x="1045" y="304" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="320" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row4-bundle-flex"><rect x="1100" y="304" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="320" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row4-tax"><rect x="1170" y="304" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="320" fill="#333">PPN</text></g>
+  <g id="row4-price"><rect x="1230" y="304" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="320" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 5 -->
+  <g id="row5-sku"><rect x="22" y="328" width="120" height="24" fill="#fff"/><text x="30" y="344" fill="#2980b9">1010300005</text></g>
+  <g id="row5-name"><rect x="142" y="328" width="560" height="24" fill="#fff"/><text x="148" y="344" fill="#2980b9">NYT-0008</text></g>
+  <g id="row5-brand"><rect x="720" y="328" width="110" height="24" fill="#fff"/><text x="730" y="344" fill="#333">CARSPEED</text></g>
+  <g id="row5-type"><rect x="830" y="328" width="100" height="24" fill="#fff"/><text x="840" y="344" fill="#333">NEYTECH</text></g>
+  <g id="row5-tags"><rect x="930" y="328" width="50" height="24" fill="#fff"/></g>
+  <g id="row5-tracking"><rect x="980" y="328" width="65" height="24" fill="#fff"/><text x="1012" y="344" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row5-bundle"><rect x="1045" y="328" width="55" height="24" fill="#fff"/><text x="1072" y="344" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row5-bundle-flex"><rect x="1100" y="328" width="70" height="24" fill="#fff"/><text x="1135" y="344" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row5-tax"><rect x="1170" y="328" width="60" height="24" fill="#fff"/><text x="1178" y="344" fill="#333">PPN</text></g>
+  <g id="row5-price"><rect x="1230" y="328" width="72" height="24" fill="#fff"/><text x="1295" y="344" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 6 -->
+  <g id="row6-sku"><rect x="22" y="352" width="120" height="24" fill="#f9f9f9"/><text x="30" y="368" fill="#2980b9">1010300006</text></g>
+  <g id="row6-name"><rect x="142" y="352" width="560" height="24" fill="#f9f9f9"/><text x="148" y="368" fill="#2980b9">SPDIESEL INTAKE CLEANING ADAPTER.NYT-0028</text></g>
+  <g id="row6-brand"><rect x="720" y="352" width="110" height="24" fill="#f9f9f9"/><text x="730" y="368" fill="#333">CARSPEED</text></g>
+  <g id="row6-type"><rect x="830" y="352" width="100" height="24" fill="#f9f9f9"/><text x="840" y="368" fill="#333">DOMO</text></g>
+  <g id="row6-tags"><rect x="930" y="352" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row6-tracking"><rect x="980" y="352" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="368" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row6-bundle"><rect x="1045" y="352" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="368" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row6-bundle-flex"><rect x="1100" y="352" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="368" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row6-tax"><rect x="1170" y="352" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="368" fill="#333">PPN</text></g>
+  <g id="row6-price"><rect x="1230" y="352" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="368" fill="#333" text-anchor="end">721.500</text></g>
+
+  <!-- Row 7 -->
+  <g id="row7-sku"><rect x="22" y="376" width="120" height="24" fill="#fff"/><text x="30" y="392" fill="#2980b9">1010300007</text></g>
+  <g id="row7-name"><rect x="142" y="376" width="560" height="24" fill="#fff"/><text x="148" y="392" fill="#2980b9">NYT-0111</text></g>
+  <g id="row7-brand"><rect x="720" y="376" width="110" height="24" fill="#fff"/><text x="730" y="392" fill="#333">CARSPEED</text></g>
+  <g id="row7-type"><rect x="830" y="376" width="100" height="24" fill="#fff"/><text x="840" y="392" fill="#333">NEYTECH</text></g>
+  <g id="row7-tags"><rect x="930" y="376" width="50" height="24" fill="#fff"/></g>
+  <g id="row7-tracking"><rect x="980" y="376" width="65" height="24" fill="#fff"/><text x="1012" y="392" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row7-bundle"><rect x="1045" y="376" width="55" height="24" fill="#fff"/><text x="1072" y="392" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row7-bundle-flex"><rect x="1100" y="376" width="70" height="24" fill="#fff"/><text x="1135" y="392" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row7-tax"><rect x="1170" y="376" width="60" height="24" fill="#fff"/><text x="1178" y="392" fill="#333">PPN</text></g>
+  <g id="row7-price"><rect x="1230" y="376" width="72" height="24" fill="#fff"/><text x="1295" y="392" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 8 -->
+  <g id="row8-sku"><rect x="22" y="400" width="120" height="24" fill="#f9f9f9"/><text x="30" y="416" fill="#2980b9">1010400001</text></g>
+  <g id="row8-name"><rect x="142" y="400" width="560" height="24" fill="#f9f9f9"/><text x="148" y="416" fill="#2980b9">C.DOMO.AIR INTAKE BENSIN</text></g>
+  <g id="row8-brand"><rect x="720" y="400" width="110" height="24" fill="#f9f9f9"/><text x="730" y="416" fill="#333">9 CIRCLE</text></g>
+  <g id="row8-type"><rect x="830" y="400" width="100" height="24" fill="#f9f9f9"/><text x="840" y="416" fill="#333">DOMO</text></g>
+  <g id="row8-tags"><rect x="930" y="400" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row8-tracking"><rect x="980" y="400" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="416" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row8-bundle"><rect x="1045" y="400" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="416" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row8-bundle-flex"><rect x="1100" y="400" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="416" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row8-tax"><rect x="1170" y="400" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="416" fill="#333">PPN</text></g>
+  <g id="row8-price"><rect x="1230" y="400" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="416" fill="#333" text-anchor="end">160.950</text></g>
+
+  <!-- Row 9 -->
+  <g id="row9-sku"><rect x="22" y="424" width="120" height="24" fill="#fff"/><text x="30" y="440" fill="#2980b9">1010400002</text></g>
+  <g id="row9-name"><rect x="142" y="424" width="560" height="24" fill="#fff"/><text x="148" y="440" fill="#2980b9">C.DOMO.AIR INTAKE DIESEL</text></g>
+  <g id="row9-brand"><rect x="720" y="424" width="110" height="24" fill="#fff"/><text x="730" y="440" fill="#333">9 CIRCLE</text></g>
+  <g id="row9-type"><rect x="830" y="424" width="100" height="24" fill="#fff"/><text x="840" y="440" fill="#333">DOMO</text></g>
+  <g id="row9-tags"><rect x="930" y="424" width="50" height="24" fill="#fff"/></g>
+  <g id="row9-tracking"><rect x="980" y="424" width="65" height="24" fill="#fff"/><text x="1012" y="440" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row9-bundle"><rect x="1045" y="424" width="55" height="24" fill="#fff"/><text x="1072" y="440" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row9-bundle-flex"><rect x="1100" y="424" width="70" height="24" fill="#fff"/><text x="1135" y="440" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row9-tax"><rect x="1170" y="424" width="60" height="24" fill="#fff"/><text x="1178" y="440" fill="#333">PPN</text></g>
+  <g id="row9-price"><rect x="1230" y="424" width="72" height="24" fill="#fff"/><text x="1295" y="440" fill="#333" text-anchor="end">150.500</text></g>
+
+  <!-- Row 10 -->
+  <g id="row10-sku"><rect x="22" y="448" width="120" height="24" fill="#f9f9f9"/><text x="30" y="464" fill="#2980b9">1012800001</text></g>
+  <g id="row10-name"><rect x="142" y="448" width="560" height="24" fill="#f9f9f9"/><text x="148" y="464" fill="#2980b9">O.ENGINE CLEASING FLUSH OIL.9CC-EC-3L</text></g>
+  <g id="row10-brand"><rect x="720" y="448" width="110" height="24" fill="#f9f9f9"/><text x="730" y="464" fill="#333">9 CIRCLE</text></g>
+  <g id="row10-type"><rect x="830" y="448" width="100" height="24" fill="#f9f9f9"/><text x="840" y="464" fill="#333">DOMO</text></g>
+  <g id="row10-tags"><rect x="930" y="448" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row10-tracking"><rect x="980" y="448" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="464" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row10-bundle"><rect x="1045" y="448" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="464" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row10-bundle-flex"><rect x="1100" y="448" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="464" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row10-tax"><rect x="1170" y="448" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="464" fill="#333">PPN</text></g>
+  <g id="row10-price"><rect x="1230" y="448" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="464" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 11 -->
+  <g id="row11-sku"><rect x="22" y="472" width="120" height="24" fill="#fff"/><text x="30" y="488" fill="#2980b9">1012800002</text></g>
+  <g id="row11-name"><rect x="142" y="472" width="560" height="24" fill="#fff"/><text x="148" y="488" fill="#2980b9">C.MOTOR REBORN CLEANER.9CC-EXT26</text></g>
+  <g id="row11-brand"><rect x="720" y="472" width="110" height="24" fill="#fff"/><text x="730" y="488" fill="#333">9 CIRCLE</text></g>
+  <g id="row11-type"><rect x="830" y="472" width="100" height="24" fill="#fff"/><text x="840" y="488" fill="#333">DOMO</text></g>
+  <g id="row11-tags"><rect x="930" y="472" width="50" height="24" fill="#fff"/></g>
+  <g id="row11-tracking"><rect x="980" y="472" width="65" height="24" fill="#fff"/><text x="1012" y="488" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row11-bundle"><rect x="1045" y="472" width="55" height="24" fill="#fff"/><text x="1072" y="488" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row11-bundle-flex"><rect x="1100" y="472" width="70" height="24" fill="#fff"/><text x="1135" y="488" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row11-tax"><rect x="1170" y="472" width="60" height="24" fill="#fff"/><text x="1178" y="488" fill="#333">PPN</text></g>
+  <g id="row11-price"><rect x="1230" y="472" width="72" height="24" fill="#fff"/><text x="1295" y="488" fill="#333" text-anchor="end">282.051</text></g>
+
+  <!-- Row 12 -->
+  <g id="row12-sku"><rect x="22" y="496" width="120" height="24" fill="#f9f9f9"/><text x="30" y="512" fill="#2980b9">1012800003</text></g>
+  <g id="row12-name"><rect x="142" y="496" width="560" height="24" fill="#f9f9f9"/><text x="148" y="512" fill="#2980b9">C.DIESEL FUEL TREATMENT CLEANER 1L.9CC-EXT26D1L</text></g>
+  <g id="row12-brand"><rect x="720" y="496" width="110" height="24" fill="#f9f9f9"/><text x="730" y="512" fill="#333">9 CIRCLE</text></g>
+  <g id="row12-type"><rect x="830" y="496" width="100" height="24" fill="#f9f9f9"/><text x="840" y="512" fill="#333">DOMO</text></g>
+  <g id="row12-tags"><rect x="930" y="496" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row12-tracking"><rect x="980" y="496" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="512" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row12-bundle"><rect x="1045" y="496" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="512" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row12-bundle-flex"><rect x="1100" y="496" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="512" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row12-tax"><rect x="1170" y="496" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="512" fill="#333">PPN</text></g>
+  <g id="row12-price"><rect x="1230" y="496" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="512" fill="#333" text-anchor="end">598.290</text></g>
+
+  <!-- Row 13 -->
+  <g id="row13-sku"><rect x="22" y="520" width="120" height="24" fill="#fff"/><text x="30" y="536" fill="#2980b9">1012800004</text></g>
+  <g id="row13-name"><rect x="142" y="520" width="560" height="24" fill="#fff"/><text x="148" y="536" fill="#2980b9">C.GASOLINE INJECTOR CLEANER.9CC-EXT26G1L</text></g>
+  <g id="row13-brand"><rect x="720" y="520" width="110" height="24" fill="#fff"/><text x="730" y="536" fill="#333">9 CIRCLE</text></g>
+  <g id="row13-type"><rect x="830" y="520" width="100" height="24" fill="#fff"/><text x="840" y="536" fill="#333">DOMO</text></g>
+  <g id="row13-tags"><rect x="930" y="520" width="50" height="24" fill="#fff"/></g>
+  <g id="row13-tracking"><rect x="980" y="520" width="65" height="24" fill="#fff"/><text x="1012" y="536" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row13-bundle"><rect x="1045" y="520" width="55" height="24" fill="#fff"/><text x="1072" y="536" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row13-bundle-flex"><rect x="1100" y="520" width="70" height="24" fill="#fff"/><text x="1135" y="536" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row13-tax"><rect x="1170" y="520" width="60" height="24" fill="#fff"/><text x="1178" y="536" fill="#333">PPN</text></g>
+  <g id="row13-price"><rect x="1230" y="520" width="72" height="24" fill="#fff"/><text x="1295" y="536" fill="#333" text-anchor="end">128.205</text></g>
+
+  <!-- Row 14 -->
+  <g id="row14-sku"><rect x="22" y="544" width="120" height="24" fill="#f9f9f9"/><text x="30" y="560" fill="#2980b9">1012800005</text></g>
+  <g id="row14-name"><rect x="142" y="544" width="560" height="24" fill="#f9f9f9"/><text x="148" y="560" fill="#2980b9">9CC-EXT35 60L</text></g>
+  <g id="row14-brand"><rect x="720" y="544" width="110" height="24" fill="#f9f9f9"/><text x="730" y="560" fill="#333">9 CIRCLE</text></g>
+  <g id="row14-type"><rect x="830" y="544" width="100" height="24" fill="#f9f9f9"/><text x="840" y="560" fill="#333">DOMO</text></g>
+  <g id="row14-tags"><rect x="930" y="544" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row14-tracking"><rect x="980" y="544" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="560" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row14-bundle"><rect x="1045" y="544" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="560" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row14-bundle-flex"><rect x="1100" y="544" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="560" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row14-tax"><rect x="1170" y="544" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="560" fill="#333">PPN</text></g>
+  <g id="row14-price"><rect x="1230" y="544" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="560" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 15 -->
+  <g id="row15-sku"><rect x="22" y="568" width="120" height="24" fill="#fff"/><text x="30" y="584" fill="#2980b9">1012800006</text></g>
+  <g id="row15-name"><rect x="142" y="568" width="560" height="24" fill="#fff"/><text x="148" y="584" fill="#2980b9">C.OIL BRUN STOP.9CC-EXT40</text></g>
+  <g id="row15-brand"><rect x="720" y="568" width="110" height="24" fill="#fff"/><text x="730" y="584" fill="#333">9 CIRCLE</text></g>
+  <g id="row15-type"><rect x="830" y="568" width="100" height="24" fill="#fff"/><text x="840" y="584" fill="#333">DOMO</text></g>
+  <g id="row15-tags"><rect x="930" y="568" width="50" height="24" fill="#fff"/></g>
+  <g id="row15-tracking"><rect x="980" y="568" width="65" height="24" fill="#fff"/><text x="1012" y="584" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row15-bundle"><rect x="1045" y="568" width="55" height="24" fill="#fff"/><text x="1072" y="584" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row15-bundle-flex"><rect x="1100" y="568" width="70" height="24" fill="#fff"/><text x="1135" y="584" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row15-tax"><rect x="1170" y="568" width="60" height="24" fill="#fff"/><text x="1178" y="584" fill="#333">PPN</text></g>
+  <g id="row15-price"><rect x="1230" y="568" width="72" height="24" fill="#fff"/><text x="1295" y="584" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 16 -->
+  <g id="row16-sku"><rect x="22" y="592" width="120" height="24" fill="#f9f9f9"/><text x="30" y="608" fill="#2980b9">1012800007</text></g>
+  <g id="row16-name"><rect x="142" y="592" width="560" height="24" fill="#f9f9f9"/><text x="148" y="608" fill="#2980b9">9CC-EXT55</text></g>
+  <g id="row16-brand"><rect x="720" y="592" width="110" height="24" fill="#f9f9f9"/><text x="730" y="608" fill="#333">9 CIRCLE</text></g>
+  <g id="row16-type"><rect x="830" y="592" width="100" height="24" fill="#f9f9f9"/><text x="840" y="608" fill="#333">DOMO</text></g>
+  <g id="row16-tags"><rect x="930" y="592" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row16-tracking"><rect x="980" y="592" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="608" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row16-bundle"><rect x="1045" y="592" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="608" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row16-bundle-flex"><rect x="1100" y="592" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="608" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row16-tax"><rect x="1170" y="592" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="608" fill="#333">PPN</text></g>
+  <g id="row16-price"><rect x="1230" y="592" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="608" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 17 -->
+  <g id="row17-sku"><rect x="22" y="616" width="120" height="24" fill="#fff"/><text x="30" y="632" fill="#2980b9">1012800008</text></g>
+  <g id="row17-name"><rect x="142" y="616" width="560" height="24" fill="#fff"/><text x="148" y="632" fill="#2980b9">C.POWER EXTRA.9CC-EXT73</text></g>
+  <g id="row17-brand"><rect x="720" y="616" width="110" height="24" fill="#fff"/><text x="730" y="632" fill="#333">9 CIRCLE</text></g>
+  <g id="row17-type"><rect x="830" y="616" width="100" height="24" fill="#fff"/><text x="840" y="632" fill="#333">DOMO</text></g>
+  <g id="row17-tags"><rect x="930" y="616" width="50" height="24" fill="#fff"/></g>
+  <g id="row17-tracking"><rect x="980" y="616" width="65" height="24" fill="#fff"/><text x="1012" y="632" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row17-bundle"><rect x="1045" y="616" width="55" height="24" fill="#fff"/><text x="1072" y="632" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row17-bundle-flex"><rect x="1100" y="616" width="70" height="24" fill="#fff"/><text x="1135" y="632" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row17-tax"><rect x="1170" y="616" width="60" height="24" fill="#fff"/><text x="1178" y="632" fill="#333">PPN</text></g>
+  <g id="row17-price"><rect x="1230" y="616" width="72" height="24" fill="#fff"/><text x="1295" y="632" fill="#333" text-anchor="end">239.316</text></g>
+
+  <!-- Row 18 -->
+  <g id="row18-sku"><rect x="22" y="640" width="120" height="24" fill="#f9f9f9"/><text x="30" y="656" fill="#2980b9">1012800009</text></g>
+  <g id="row18-name"><rect x="142" y="640" width="560" height="24" fill="#f9f9f9"/><text x="148" y="656" fill="#2980b9">C.ENGINE REMETALIZER.9CC-EXT88N</text></g>
+  <g id="row18-brand"><rect x="720" y="640" width="110" height="24" fill="#f9f9f9"/><text x="730" y="656" fill="#333">9 CIRCLE</text></g>
+  <g id="row18-type"><rect x="830" y="640" width="100" height="24" fill="#f9f9f9"/><text x="840" y="656" fill="#333">DOMO</text></g>
+  <g id="row18-tags"><rect x="930" y="640" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row18-tracking"><rect x="980" y="640" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="656" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row18-bundle"><rect x="1045" y="640" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="656" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row18-bundle-flex"><rect x="1100" y="640" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="656" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row18-tax"><rect x="1170" y="640" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="656" fill="#333">PPN</text></g>
+  <g id="row18-price"><rect x="1230" y="640" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="656" fill="#333" text-anchor="end">230.769</text></g>
+
+  <!-- Row 19 -->
+  <g id="row19-sku"><rect x="22" y="664" width="120" height="24" fill="#fff"/><text x="30" y="680" fill="#2980b9">1012800010</text></g>
+  <g id="row19-name"><rect x="142" y="664" width="560" height="24" fill="#fff"/><text x="148" y="680" fill="#2980b9">C.ENGINE REMETALIZER 20L.9CC-EXT88N20L</text></g>
+  <g id="row19-brand"><rect x="720" y="664" width="110" height="24" fill="#fff"/><text x="730" y="680" fill="#333">9 CIRCLE</text></g>
+  <g id="row19-type"><rect x="830" y="664" width="100" height="24" fill="#fff"/><text x="840" y="680" fill="#333">DOMO</text></g>
+  <g id="row19-tags"><rect x="930" y="664" width="50" height="24" fill="#fff"/></g>
+  <g id="row19-tracking"><rect x="980" y="664" width="65" height="24" fill="#fff"/><text x="1012" y="680" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row19-bundle"><rect x="1045" y="664" width="55" height="24" fill="#fff"/><text x="1072" y="680" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row19-bundle-flex"><rect x="1100" y="664" width="70" height="24" fill="#fff"/><text x="1135" y="680" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row19-tax"><rect x="1170" y="664" width="60" height="24" fill="#fff"/><text x="1178" y="680" fill="#333">PPN</text></g>
+  <g id="row19-price"><rect x="1230" y="664" width="72" height="24" fill="#fff"/><text x="1295" y="680" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Row 20 -->
+  <g id="row20-sku"><rect x="22" y="688" width="120" height="24" fill="#f9f9f9"/><text x="30" y="704" fill="#2980b9">1012800011</text></g>
+  <g id="row20-name"><rect x="142" y="688" width="560" height="24" fill="#f9f9f9"/><text x="148" y="704" fill="#2980b9">C.METAL PROTECT.9CC-EXT99</text></g>
+  <g id="row20-brand"><rect x="720" y="688" width="110" height="24" fill="#f9f9f9"/><text x="730" y="704" fill="#333">9 CIRCLE</text></g>
+  <g id="row20-type"><rect x="830" y="688" width="100" height="24" fill="#f9f9f9"/><text x="840" y="704" fill="#333">DOMO</text></g>
+  <g id="row20-tags"><rect x="930" y="688" width="50" height="24" fill="#f9f9f9"/></g>
+  <g id="row20-tracking"><rect x="980" y="688" width="65" height="24" fill="#f9f9f9"/><text x="1012" y="704" fill="#27ae60" text-anchor="middle">✓</text></g>
+  <g id="row20-bundle"><rect x="1045" y="688" width="55" height="24" fill="#f9f9f9"/><text x="1072" y="704" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row20-bundle-flex"><rect x="1100" y="688" width="70" height="24" fill="#f9f9f9"/><text x="1135" y="704" fill="#e74c3c" text-anchor="middle">✗</text></g>
+  <g id="row20-tax"><rect x="1170" y="688" width="60" height="24" fill="#f9f9f9"/><text x="1178" y="704" fill="#333">PPN</text></g>
+  <g id="row20-price"><rect x="1230" y="688" width="72" height="24" fill="#f9f9f9"/><text x="1295" y="704" fill="#333" text-anchor="end">0</text></g>
+
+  <!-- Footer pagination -->
+  <g id="footer-pagination">
+    <rect x="0" y="800" width="1320" height="28" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="1160" y="818" fill="#2980b9" font-size="12">20 Rows | 50 Rows</text>
+  </g>
+</svg>

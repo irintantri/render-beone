@@ -1,12 +1,5 @@
 [
   {
-    "id": "components-table-of-contents-usetableofcontents-md-exists",
-    "category": "structural",
-    "target": "components/Table_of_Contents/useTableOfContents.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"components\" emitted this pseudocode file."
-  },
-  {
     "id": "components-table-of-contents-tableofcontents-md-exists",
     "category": "structural",
     "target": "components/Table_of_Contents/TableOfContents.md",
@@ -14,9 +7,16 @@
     "rationale": "Swimlane \"components\" emitted this pseudocode file."
   },
   {
-    "id": "components-table-of-contents-documentview-md-exists",
+    "id": "components-table-of-contents-documentsectioncards-md-exists",
     "category": "structural",
-    "target": "components/Table_of_Contents/DocumentView.md",
+    "target": "components/Table_of_Contents/DocumentSectionCards.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-table-of-contents-usedocumentnavigation-md-exists",
+    "category": "structural",
+    "target": "components/Table_of_Contents/useDocumentNavigation.md",
     "check": "file_exists",
     "rationale": "Swimlane \"components\" emitted this pseudocode file."
   }

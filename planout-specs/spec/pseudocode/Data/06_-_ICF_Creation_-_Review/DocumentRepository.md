@@ -1,17 +1,23 @@
 /**
- * Fetches the full document state including content and metadata for the review interface.
+ * Node: Document Data Schema (fc34f433-9d87-4c39-aaa9-7ed385203c93)
+ * Defines the persistence structure for ICF documents.
  */
-FUNCTION getDocumentById(id: UUID): DOCUMENT {
-    RETURN DB.query("SELECT * FROM DOCUMENT WHERE id = ?", [id]);
+interface DocumentDTO {
+  id: string;
+  protocol_id: string;
+  icf_name: string;
+  icf_version: string;
+  template: string | null;
+  status: string;
+  content: string | null;
+  metadata: Record<string, any>;
+  published_at: string | null;
+  created_at: string;
+  last_modified: string;
 }
 
-/**
- * Retrieves the chronological audit trail for a specific document.
- * Ordered by timestamp descending to show the most recent feedback/actions first.
- */
-FUNCTION getAuditLogsByDocumentId(id: UUID): LIST<AUDIT_LOG> {
-    RETURN DB.query(
-        "SELECT * FROM AUDIT_LOG WHERE resource_id = ? ORDER BY timestamp DESC", 
-        [id]
-    );
-}
+// Happy Path: Returns a valid DocumentDTO object matching the schema.
+// Validation: Enforces strict property presence as defined in the schema.
+// Empty State: Returns null if the document ID is not found.
+// Side Effects: None.
+// Notes covered: DocumentDTO structure, required fields, property types, additionalProperties: false.

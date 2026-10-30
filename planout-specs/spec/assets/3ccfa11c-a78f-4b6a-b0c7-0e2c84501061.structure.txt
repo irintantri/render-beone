@@ -1,0 +1,712 @@
+Canvas: 1320×832px
+
+├─ group [0,0 1320×24]
+│  └─ rect [0,0 1320×24]  fill=#2d3e50
+├─ text-group [0,0 90×24]
+│  ├─ rect [0,0 90×24]  fill=#3a4f63
+│  └─ text [45,16 0×0] "Dashboard"  fill=#fff
+├─ text-group [90,0 70×24]
+│  ├─ rect [90,0 70×24]  fill=#2d3e50
+│  └─ text [125,16 0×0] "Sales"  fill=#fff
+├─ text-group [160,0 90×24]
+│  ├─ rect [160,0 90×24]  fill=#2d3e50
+│  └─ text [205,16 0×0] "Customers"  fill=#fff
+├─ text-group [250,0 80×24]
+│  ├─ rect [250,0 80×24]  fill=#2d3e50
+│  └─ text [290,16 0×0] "Suppliers"  fill=#fff
+├─ text-group [330,0 80×24]
+│  ├─ rect [330,0 80×24]  fill=#4a7fa5
+│  └─ text [370,16 0×0] "Products"  fill=#fff
+├─ text-group [410,0 80×24]
+│  ├─ rect [410,0 80×24]  fill=#2d3e50
+│  └─ text [450,16 0×0] "Inventory"  fill=#fff
+├─ text-group [490,0 70×24]
+│  ├─ rect [490,0 70×24]  fill=#2d3e50
+│  └─ text [525,16 0×0] "Finance"  fill=#fff
+├─ text-group [560,0 90×24]
+│  ├─ rect [560,0 90×24]  fill=#2d3e50
+│  └─ text [605,16 0×0] "Accounting"  fill=#fff
+├─ text-group [650,0 70×24]
+│  ├─ rect [650,0 70×24]  fill=#2d3e50
+│  └─ text [685,16 0×0] "Reports"  fill=#fff
+├─ text-group [720,0 60×24]
+│  ├─ rect [720,0 60×24]  fill=#2d3e50
+│  └─ text [750,16 0×0] "Setup"  fill=#fff
+├─ text-group [780,0 90×24]
+│  ├─ rect [780,0 90×24]  fill=#2d3e50
+│  └─ text [825,16 0×0] "User Guide"  fill=#fff
+├─ card-group [1020,2 80×20]
+│  ├─ card [1020,2 80×20]  fill=#3a4f63 rx=3
+│  └─ text [1060,16 0×0] "Ctrl K"  fill=#ccc
+├─ unknown
+│  └─ text [1130,16 0×0] "🔔"  fill=#fff
+├─ unknown
+│  └─ text [1160,16 0×0] "TRAINING - DOMO ▼"  fill=#fff
+├─ group [0,24 1320×28]
+│  └─ rect [0,24 1320×28]  fill=#f0f0f0 stroke=#ccc
+├─ unknown
+│  └─ text [40,43 0×0] "Products ▼"  fill=#333
+├─ unknown
+│  └─ text [110,43 0×0] "Pricebooks ▼"  fill=#333
+├─ unknown
+│  └─ text [195,43 0×0] "Vouchers ▼"  fill=#333
+├─ unknown
+│  └─ text [265,43 0×0] "Pricelists"  fill=#333
+├─ unknown
+│  └─ text [330,43 0×0] "Price Schedules"  fill=#333
+├─ unknown
+│  └─ text [430,43 0×0] "Price Trackings ▼"  fill=#333
+├─ unknown
+│  └─ text [530,43 0×0] "Types ▼"  fill=#333
+├─ unknown
+│  └─ text [580,43 0×0] "Product Brands"  fill=#333
+├─ unknown
+│  └─ text [665,43 0×0] "Tags ▼"  fill=#333
+├─ text-group [0,52 1320×30]
+│  ├─ rect [0,52 1320×30]  fill=#fff
+│  ├─ text [28,72 0×0] "🏷"  fill=#e67e22 14px
+│  ├─ text [45,72 0×0] "Products"  fill=#333 16px bold
+│  └─ text [110,72 0×0] "★"  fill=#f0c040 14px
+├─ card-group [22,88 65×26]
+│  ├─ card [22,88 65×26]  fill=#4a7fa5 rx=3
+│  └─ text [54,105 0×0] "Active"  fill=#fff
+├─ card-group [90,88 70×26]
+│  ├─ card [90,88 70×26]  fill=#e0e0e0 rx=3
+│  └─ text [125,105 0×0] "Inactive"  fill=#555
+├─ group [22,122 1280×124]
+│  └─ rect [22,122 1280×124]  fill=#fff stroke=#ddd
+├─ text-group [30,130 140×28]
+│  ├─ rect [30,130 140×28]  fill=#fff stroke=#ccc
+│  └─ text [38,148 0×0] "SKU"  fill=#aaa
+├─ text-group [178,130 200×28]
+│  ├─ rect [178,130 200×28]  fill=#fff stroke=#ccc
+│  └─ text [186,148 0×0] "Name (Contain)"  fill=#aaa
+├─ text-group [386,130 180×28]
+│  ├─ rect [386,130 180×28]  fill=#fff stroke=#ccc
+│  └─ text [394,148 0×0] "Product Code"  fill=#aaa
+├─ text-group [574,130 180×28]
+│  ├─ rect [574,130 180×28]  fill=#fff stroke=#ccc
+│  ├─ text [582,148 0×0] "Product Brand"  fill=#aaa
+│  └─ text [742,148 0×0] "▼"  fill=#aaa
+├─ text-group [762,130 180×28]
+│  ├─ rect [762,130 180×28]  fill=#fff stroke=#ccc
+│  ├─ text [770,148 0×0] "Product Type"  fill=#aaa
+│  └─ text [930,148 0×0] "▼"  fill=#aaa
+├─ text-group [950,130 150×28]
+│  ├─ rect [950,130 150×28]  fill=#fff stroke=#ccc
+│  ├─ text [958,148 0×0] "Tax"  fill=#aaa
+│  └─ text [1088,148 0×0] "▼"  fill=#aaa
+├─ text-group [1108,130 185×28]
+│  ├─ rect [1108,130 185×28]  fill=#fff stroke=#ccc
+│  └─ text [1116,148 0×0] "All Tags"  fill=#aaa
+├─ text-group [30,165 140×28]
+│  ├─ rect [30,165 140×28]  fill=#fff stroke=#ccc
+│  └─ text [38,183 0×0] "Kategori Item"  fill=#aaa
+├─ text-group [178,165 180×28]
+│  ├─ rect [178,165 180×28]  fill=#fff stroke=#ccc
+│  └─ text [186,183 0×0] "Unit Bisnis"  fill=#aaa
+├─ text-group [366,165 180×28]
+│  ├─ rect [366,165 180×28]  fill=#fff stroke=#ccc
+│  └─ text [374,183 0×0] "Tipe Mobil"  fill=#aaa
+├─ text-group [554,165 230×28]
+│  ├─ rect [554,165 230×28]  fill=#fff stroke=#ccc
+│  └─ text [562,183 0×0] "Product Settings"  fill=#aaa
+├─ card-group [795,165 90×28]
+│  ├─ card [795,165 90×28]  fill=#f5f5f5 stroke=#ccc rx=3
+│  └─ text [840,183 0×0] "🔍 Search"  fill=#333
+├─ text-group [22,200 1280×32]
+│  ├─ rect [22,200 1280×32]  fill=#f8f8f8 stroke=#ddd
+│  ├─ text [30,220 0×0] "SKU"  fill=#2980b9 bold
+│  ├─ text [148,220 0×0] "Name"  fill=#2980b9 bold
+│  ├─ text [610,220 0×0] "Product Code"  fill=#2980b9 bold
+│  ├─ text [730,220 0×0] "Brand"  fill=#2980b9 bold
+│  ├─ text [840,220 0×0] "Type"  fill=#2980b9 bold
+│  ├─ text [935,220 0×0] "Tags"  fill=#2980b9 bold
+│  ├─ text [985,220 0×0] "Tracking"  fill=#2980b9 bold
+│  ├─ text [1052,220 0×0] "Bundle"  fill=#2980b9 bold
+│  ├─ text [1105,220 0×0] "Bundle Flexible"  fill=#2980b9 bold
+│  ├─ text [1175,220 0×0] "Tax"  fill=#2980b9 bold
+│  └─ text [1240,220 0×0] "Price (Rp)"  fill=#2980b9 bold
+├─ text-group [22,232 120×24]
+│  ├─ rect [22,232 120×24]  fill=#fff
+│  └─ text [30,248 0×0] "1010300001"  fill=#2980b9
+├─ text-group [142,232 560×24]
+│  ├─ rect [142,232 560×24]  fill=#fff
+│  └─ text [148,248 0×0] "C-668"  fill=#2980b9
+├─ text-group [720,232 110×24]
+│  ├─ rect [720,232 110×24]  fill=#fff
+│  └─ text [730,248 0×0] "CARSPEED"  fill=#333
+├─ text-group [830,232 100×24]
+│  ├─ rect [830,232 100×24]  fill=#fff
+│  └─ text [840,248 0×0] "NEYTECH"  fill=#333
+├─ group [930,232 50×24]
+│  └─ rect [930,232 50×24]  fill=#fff
+├─ text-group [980,232 65×24]
+│  ├─ rect [980,232 65×24]  fill=#fff
+│  └─ text [1012,248 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,232 55×24]
+│  ├─ rect [1045,232 55×24]  fill=#fff
+│  └─ text [1072,248 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,232 70×24]
+│  ├─ rect [1100,232 70×24]  fill=#fff
+│  └─ text [1135,248 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,232 60×24]
+│  ├─ rect [1170,232 60×24]  fill=#fff
+│  └─ text [1178,248 0×0] "PPN"  fill=#333
+├─ text-group [1230,232 72×24]
+│  ├─ rect [1230,232 72×24]  fill=#fff
+│  └─ text [1295,248 0×0] "0"  fill=#333
+├─ text-group [22,256 120×24]
+│  ├─ rect [22,256 120×24]  fill=#f9f9f9
+│  └─ text [30,272 0×0] "1010300002"  fill=#2980b9
+├─ text-group [142,256 560×24]
+│  ├─ rect [142,256 560×24]  fill=#f9f9f9
+│  └─ text [148,272 0×0] "C5020"  fill=#2980b9
+├─ text-group [720,256 110×24]
+│  ├─ rect [720,256 110×24]  fill=#f9f9f9
+│  └─ text [730,272 0×0] "CARSPEED"  fill=#333
+├─ text-group [830,256 100×24]
+│  ├─ rect [830,256 100×24]  fill=#f9f9f9
+│  └─ text [840,272 0×0] "DOMO"  fill=#333
+├─ group [930,256 50×24]
+│  └─ rect [930,256 50×24]  fill=#f9f9f9
+├─ text-group [980,256 65×24]
+│  ├─ rect [980,256 65×24]  fill=#f9f9f9
+│  └─ text [1012,272 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,256 55×24]
+│  ├─ rect [1045,256 55×24]  fill=#f9f9f9
+│  └─ text [1072,272 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,256 70×24]
+│  ├─ rect [1100,256 70×24]  fill=#f9f9f9
+│  └─ text [1135,272 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,256 60×24]
+│  ├─ rect [1170,256 60×24]  fill=#f9f9f9
+│  └─ text [1178,272 0×0] "PPN"  fill=#333
+├─ text-group [1230,256 72×24]
+│  ├─ rect [1230,256 72×24]  fill=#f9f9f9
+│  └─ text [1295,272 0×0] "0"  fill=#333
+├─ text-group [22,280 120×24]
+│  ├─ rect [22,280 120×24]  fill=#fff
+│  └─ text [30,296 0×0] "1010300003"  fill=#2980b9
+├─ text-group [142,280 560×24]
+│  ├─ rect [142,280 560×24]  fill=#fff
+│  └─ text [148,296 0×0] "M-5857"  fill=#2980b9
+├─ text-group [720,280 110×24]
+│  ├─ rect [720,280 110×24]  fill=#fff
+│  └─ text [730,296 0×0] "CARSPEED"  fill=#333
+├─ text-group [830,280 100×24]
+│  ├─ rect [830,280 100×24]  fill=#fff
+│  └─ text [840,296 0×0] "NEYTECH"  fill=#333
+├─ group [930,280 50×24]
+│  └─ rect [930,280 50×24]  fill=#fff
+├─ text-group [980,280 65×24]
+│  ├─ rect [980,280 65×24]  fill=#fff
+│  └─ text [1012,296 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,280 55×24]
+│  ├─ rect [1045,280 55×24]  fill=#fff
+│  └─ text [1072,296 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,280 70×24]
+│  ├─ rect [1100,280 70×24]  fill=#fff
+│  └─ text [1135,296 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,280 60×24]
+│  ├─ rect [1170,280 60×24]  fill=#fff
+│  └─ text [1178,296 0×0] "PPN"  fill=#333
+├─ text-group [1230,280 72×24]
+│  ├─ rect [1230,280 72×24]  fill=#fff
+│  └─ text [1295,296 0×0] "0"  fill=#333
+├─ text-group [22,304 120×24]
+│  ├─ rect [22,304 120×24]  fill=#f9f9f9
+│  └─ text [30,320 0×0] "1010300004"  fill=#2980b9
+├─ text-group [142,304 560×24]
+│  ├─ rect [142,304 560×24]  fill=#f9f9f9
+│  └─ text [148,320 0×0] "M-5858"  fill=#2980b9
+├─ text-group [720,304 110×24]
+│  ├─ rect [720,304 110×24]  fill=#f9f9f9
+│  └─ text [730,320 0×0] "CARSPEED"  fill=#333
+├─ text-group [830,304 100×24]
+│  ├─ rect [830,304 100×24]  fill=#f9f9f9
+│  └─ text [840,320 0×0] "NEYTECH"  fill=#333
+├─ group [930,304 50×24]
+│  └─ rect [930,304 50×24]  fill=#f9f9f9
+├─ text-group [980,304 65×24]
+│  ├─ rect [980,304 65×24]  fill=#f9f9f9
+│  └─ text [1012,320 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,304 55×24]
+│  ├─ rect [1045,304 55×24]  fill=#f9f9f9
+│  └─ text [1072,320 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,304 70×24]
+│  ├─ rect [1100,304 70×24]  fill=#f9f9f9
+│  └─ text [1135,320 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,304 60×24]
+│  ├─ rect [1170,304 60×24]  fill=#f9f9f9
+│  └─ text [1178,320 0×0] "PPN"  fill=#333
+├─ text-group [1230,304 72×24]
+│  ├─ rect [1230,304 72×24]  fill=#f9f9f9
+│  └─ text [1295,320 0×0] "0"  fill=#333
+├─ text-group [22,328 120×24]
+│  ├─ rect [22,328 120×24]  fill=#fff
+│  └─ text [30,344 0×0] "1010300005"  fill=#2980b9
+├─ text-group [142,328 560×24]
+│  ├─ rect [142,328 560×24]  fill=#fff
+│  └─ text [148,344 0×0] "NYT-0008"  fill=#2980b9
+├─ text-group [720,328 110×24]
+│  ├─ rect [720,328 110×24]  fill=#fff
+│  └─ text [730,344 0×0] "CARSPEED"  fill=#333
+├─ text-group [830,328 100×24]
+│  ├─ rect [830,328 100×24]  fill=#fff
+│  └─ text [840,344 0×0] "NEYTECH"  fill=#333
+├─ group [930,328 50×24]
+│  └─ rect [930,328 50×24]  fill=#fff
+├─ text-group [980,328 65×24]
+│  ├─ rect [980,328 65×24]  fill=#fff
+│  └─ text [1012,344 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,328 55×24]
+│  ├─ rect [1045,328 55×24]  fill=#fff
+│  └─ text [1072,344 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,328 70×24]
+│  ├─ rect [1100,328 70×24]  fill=#fff
+│  └─ text [1135,344 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,328 60×24]
+│  ├─ rect [1170,328 60×24]  fill=#fff
+│  └─ text [1178,344 0×0] "PPN"  fill=#333
+├─ text-group [1230,328 72×24]
+│  ├─ rect [1230,328 72×24]  fill=#fff
+│  └─ text [1295,344 0×0] "0"  fill=#333
+├─ text-group [22,352 120×24]
+│  ├─ rect [22,352 120×24]  fill=#f9f9f9
+│  └─ text [30,368 0×0] "1010300006"  fill=#2980b9
+├─ text-group [142,352 560×24]
+│  ├─ rect [142,352 560×24]  fill=#f9f9f9
+│  └─ text [148,368 0×0] "SPDIESEL INTAKE CLEANING ADAPTER.NYT-0028"  fill=#2980b9
+├─ text-group [720,352 110×24]
+│  ├─ rect [720,352 110×24]  fill=#f9f9f9
+│  └─ text [730,368 0×0] "CARSPEED"  fill=#333
+├─ text-group [830,352 100×24]
+│  ├─ rect [830,352 100×24]  fill=#f9f9f9
+│  └─ text [840,368 0×0] "DOMO"  fill=#333
+├─ group [930,352 50×24]
+│  └─ rect [930,352 50×24]  fill=#f9f9f9
+├─ text-group [980,352 65×24]
+│  ├─ rect [980,352 65×24]  fill=#f9f9f9
+│  └─ text [1012,368 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,352 55×24]
+│  ├─ rect [1045,352 55×24]  fill=#f9f9f9
+│  └─ text [1072,368 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,352 70×24]
+│  ├─ rect [1100,352 70×24]  fill=#f9f9f9
+│  └─ text [1135,368 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,352 60×24]
+│  ├─ rect [1170,352 60×24]  fill=#f9f9f9
+│  └─ text [1178,368 0×0] "PPN"  fill=#333
+├─ text-group [1230,352 72×24]
+│  ├─ rect [1230,352 72×24]  fill=#f9f9f9
+│  └─ text [1295,368 0×0] "721.500"  fill=#333
+├─ text-group [22,376 120×24]
+│  ├─ rect [22,376 120×24]  fill=#fff
+│  └─ text [30,392 0×0] "1010300007"  fill=#2980b9
+├─ text-group [142,376 560×24]
+│  ├─ rect [142,376 560×24]  fill=#fff
+│  └─ text [148,392 0×0] "NYT-0111"  fill=#2980b9
+├─ text-group [720,376 110×24]
+│  ├─ rect [720,376 110×24]  fill=#fff
+│  └─ text [730,392 0×0] "CARSPEED"  fill=#333
+├─ text-group [830,376 100×24]
+│  ├─ rect [830,376 100×24]  fill=#fff
+│  └─ text [840,392 0×0] "NEYTECH"  fill=#333
+├─ group [930,376 50×24]
+│  └─ rect [930,376 50×24]  fill=#fff
+├─ text-group [980,376 65×24]
+│  ├─ rect [980,376 65×24]  fill=#fff
+│  └─ text [1012,392 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,376 55×24]
+│  ├─ rect [1045,376 55×24]  fill=#fff
+│  └─ text [1072,392 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,376 70×24]
+│  ├─ rect [1100,376 70×24]  fill=#fff
+│  └─ text [1135,392 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,376 60×24]
+│  ├─ rect [1170,376 60×24]  fill=#fff
+│  └─ text [1178,392 0×0] "PPN"  fill=#333
+├─ text-group [1230,376 72×24]
+│  ├─ rect [1230,376 72×24]  fill=#fff
+│  └─ text [1295,392 0×0] "0"  fill=#333
+├─ text-group [22,400 120×24]
+│  ├─ rect [22,400 120×24]  fill=#f9f9f9
+│  └─ text [30,416 0×0] "1010400001"  fill=#2980b9
+├─ text-group [142,400 560×24]
+│  ├─ rect [142,400 560×24]  fill=#f9f9f9
+│  └─ text [148,416 0×0] "C.DOMO.AIR INTAKE BENSIN"  fill=#2980b9
+├─ text-group [720,400 110×24]
+│  ├─ rect [720,400 110×24]  fill=#f9f9f9
+│  └─ text [730,416 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,400 100×24]
+│  ├─ rect [830,400 100×24]  fill=#f9f9f9
+│  └─ text [840,416 0×0] "DOMO"  fill=#333
+├─ group [930,400 50×24]
+│  └─ rect [930,400 50×24]  fill=#f9f9f9
+├─ text-group [980,400 65×24]
+│  ├─ rect [980,400 65×24]  fill=#f9f9f9
+│  └─ text [1012,416 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,400 55×24]
+│  ├─ rect [1045,400 55×24]  fill=#f9f9f9
+│  └─ text [1072,416 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,400 70×24]
+│  ├─ rect [1100,400 70×24]  fill=#f9f9f9
+│  └─ text [1135,416 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,400 60×24]
+│  ├─ rect [1170,400 60×24]  fill=#f9f9f9
+│  └─ text [1178,416 0×0] "PPN"  fill=#333
+├─ text-group [1230,400 72×24]
+│  ├─ rect [1230,400 72×24]  fill=#f9f9f9
+│  └─ text [1295,416 0×0] "160.950"  fill=#333
+├─ text-group [22,424 120×24]
+│  ├─ rect [22,424 120×24]  fill=#fff
+│  └─ text [30,440 0×0] "1010400002"  fill=#2980b9
+├─ text-group [142,424 560×24]
+│  ├─ rect [142,424 560×24]  fill=#fff
+│  └─ text [148,440 0×0] "C.DOMO.AIR INTAKE DIESEL"  fill=#2980b9
+├─ text-group [720,424 110×24]
+│  ├─ rect [720,424 110×24]  fill=#fff
+│  └─ text [730,440 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,424 100×24]
+│  ├─ rect [830,424 100×24]  fill=#fff
+│  └─ text [840,440 0×0] "DOMO"  fill=#333
+├─ group [930,424 50×24]
+│  └─ rect [930,424 50×24]  fill=#fff
+├─ text-group [980,424 65×24]
+│  ├─ rect [980,424 65×24]  fill=#fff
+│  └─ text [1012,440 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,424 55×24]
+│  ├─ rect [1045,424 55×24]  fill=#fff
+│  └─ text [1072,440 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,424 70×24]
+│  ├─ rect [1100,424 70×24]  fill=#fff
+│  └─ text [1135,440 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,424 60×24]
+│  ├─ rect [1170,424 60×24]  fill=#fff
+│  └─ text [1178,440 0×0] "PPN"  fill=#333
+├─ text-group [1230,424 72×24]
+│  ├─ rect [1230,424 72×24]  fill=#fff
+│  └─ text [1295,440 0×0] "150.500"  fill=#333
+├─ text-group [22,448 120×24]
+│  ├─ rect [22,448 120×24]  fill=#f9f9f9
+│  └─ text [30,464 0×0] "1012800001"  fill=#2980b9
+├─ text-group [142,448 560×24]
+│  ├─ rect [142,448 560×24]  fill=#f9f9f9
+│  └─ text [148,464 0×0] "O.ENGINE CLEASING FLUSH OIL.9CC-EC-3L"  fill=#2980b9
+├─ text-group [720,448 110×24]
+│  ├─ rect [720,448 110×24]  fill=#f9f9f9
+│  └─ text [730,464 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,448 100×24]
+│  ├─ rect [830,448 100×24]  fill=#f9f9f9
+│  └─ text [840,464 0×0] "DOMO"  fill=#333
+├─ group [930,448 50×24]
+│  └─ rect [930,448 50×24]  fill=#f9f9f9
+├─ text-group [980,448 65×24]
+│  ├─ rect [980,448 65×24]  fill=#f9f9f9
+│  └─ text [1012,464 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,448 55×24]
+│  ├─ rect [1045,448 55×24]  fill=#f9f9f9
+│  └─ text [1072,464 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,448 70×24]
+│  ├─ rect [1100,448 70×24]  fill=#f9f9f9
+│  └─ text [1135,464 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,448 60×24]
+│  ├─ rect [1170,448 60×24]  fill=#f9f9f9
+│  └─ text [1178,464 0×0] "PPN"  fill=#333
+├─ text-group [1230,448 72×24]
+│  ├─ rect [1230,448 72×24]  fill=#f9f9f9
+│  └─ text [1295,464 0×0] "0"  fill=#333
+├─ text-group [22,472 120×24]
+│  ├─ rect [22,472 120×24]  fill=#fff
+│  └─ text [30,488 0×0] "1012800002"  fill=#2980b9
+├─ text-group [142,472 560×24]
+│  ├─ rect [142,472 560×24]  fill=#fff
+│  └─ text [148,488 0×0] "C.MOTOR REBORN CLEANER.9CC-EXT26"  fill=#2980b9
+├─ text-group [720,472 110×24]
+│  ├─ rect [720,472 110×24]  fill=#fff
+│  └─ text [730,488 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,472 100×24]
+│  ├─ rect [830,472 100×24]  fill=#fff
+│  └─ text [840,488 0×0] "DOMO"  fill=#333
+├─ group [930,472 50×24]
+│  └─ rect [930,472 50×24]  fill=#fff
+├─ text-group [980,472 65×24]
+│  ├─ rect [980,472 65×24]  fill=#fff
+│  └─ text [1012,488 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,472 55×24]
+│  ├─ rect [1045,472 55×24]  fill=#fff
+│  └─ text [1072,488 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,472 70×24]
+│  ├─ rect [1100,472 70×24]  fill=#fff
+│  └─ text [1135,488 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,472 60×24]
+│  ├─ rect [1170,472 60×24]  fill=#fff
+│  └─ text [1178,488 0×0] "PPN"  fill=#333
+├─ text-group [1230,472 72×24]
+│  ├─ rect [1230,472 72×24]  fill=#fff
+│  └─ text [1295,488 0×0] "282.051"  fill=#333
+├─ text-group [22,496 120×24]
+│  ├─ rect [22,496 120×24]  fill=#f9f9f9
+│  └─ text [30,512 0×0] "1012800003"  fill=#2980b9
+├─ text-group [142,496 560×24]
+│  ├─ rect [142,496 560×24]  fill=#f9f9f9
+│  └─ text [148,512 0×0] "C.DIESEL FUEL TREATMENT CLEANER 1L.9CC-EXT26D1L"  fill=#2980b9
+├─ text-group [720,496 110×24]
+│  ├─ rect [720,496 110×24]  fill=#f9f9f9
+│  └─ text [730,512 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,496 100×24]
+│  ├─ rect [830,496 100×24]  fill=#f9f9f9
+│  └─ text [840,512 0×0] "DOMO"  fill=#333
+├─ group [930,496 50×24]
+│  └─ rect [930,496 50×24]  fill=#f9f9f9
+├─ text-group [980,496 65×24]
+│  ├─ rect [980,496 65×24]  fill=#f9f9f9
+│  └─ text [1012,512 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,496 55×24]
+│  ├─ rect [1045,496 55×24]  fill=#f9f9f9
+│  └─ text [1072,512 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,496 70×24]
+│  ├─ rect [1100,496 70×24]  fill=#f9f9f9
+│  └─ text [1135,512 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,496 60×24]
+│  ├─ rect [1170,496 60×24]  fill=#f9f9f9
+│  └─ text [1178,512 0×0] "PPN"  fill=#333
+├─ text-group [1230,496 72×24]
+│  ├─ rect [1230,496 72×24]  fill=#f9f9f9
+│  └─ text [1295,512 0×0] "598.290"  fill=#333
+├─ text-group [22,520 120×24]
+│  ├─ rect [22,520 120×24]  fill=#fff
+│  └─ text [30,536 0×0] "1012800004"  fill=#2980b9
+├─ text-group [142,520 560×24]
+│  ├─ rect [142,520 560×24]  fill=#fff
+│  └─ text [148,536 0×0] "C.GASOLINE INJECTOR CLEANER.9CC-EXT26G1L"  fill=#2980b9
+├─ text-group [720,520 110×24]
+│  ├─ rect [720,520 110×24]  fill=#fff
+│  └─ text [730,536 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,520 100×24]
+│  ├─ rect [830,520 100×24]  fill=#fff
+│  └─ text [840,536 0×0] "DOMO"  fill=#333
+├─ group [930,520 50×24]
+│  └─ rect [930,520 50×24]  fill=#fff
+├─ text-group [980,520 65×24]
+│  ├─ rect [980,520 65×24]  fill=#fff
+│  └─ text [1012,536 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,520 55×24]
+│  ├─ rect [1045,520 55×24]  fill=#fff
+│  └─ text [1072,536 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,520 70×24]
+│  ├─ rect [1100,520 70×24]  fill=#fff
+│  └─ text [1135,536 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,520 60×24]
+│  ├─ rect [1170,520 60×24]  fill=#fff
+│  └─ text [1178,536 0×0] "PPN"  fill=#333
+├─ text-group [1230,520 72×24]
+│  ├─ rect [1230,520 72×24]  fill=#fff
+│  └─ text [1295,536 0×0] "128.205"  fill=#333
+├─ text-group [22,544 120×24]
+│  ├─ rect [22,544 120×24]  fill=#f9f9f9
+│  └─ text [30,560 0×0] "1012800005"  fill=#2980b9
+├─ text-group [142,544 560×24]
+│  ├─ rect [142,544 560×24]  fill=#f9f9f9
+│  └─ text [148,560 0×0] "9CC-EXT35 60L"  fill=#2980b9
+├─ text-group [720,544 110×24]
+│  ├─ rect [720,544 110×24]  fill=#f9f9f9
+│  └─ text [730,560 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,544 100×24]
+│  ├─ rect [830,544 100×24]  fill=#f9f9f9
+│  └─ text [840,560 0×0] "DOMO"  fill=#333
+├─ group [930,544 50×24]
+│  └─ rect [930,544 50×24]  fill=#f9f9f9
+├─ text-group [980,544 65×24]
+│  ├─ rect [980,544 65×24]  fill=#f9f9f9
+│  └─ text [1012,560 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,544 55×24]
+│  ├─ rect [1045,544 55×24]  fill=#f9f9f9
+│  └─ text [1072,560 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,544 70×24]
+│  ├─ rect [1100,544 70×24]  fill=#f9f9f9
+│  └─ text [1135,560 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,544 60×24]
+│  ├─ rect [1170,544 60×24]  fill=#f9f9f9
+│  └─ text [1178,560 0×0] "PPN"  fill=#333
+├─ text-group [1230,544 72×24]
+│  ├─ rect [1230,544 72×24]  fill=#f9f9f9
+│  └─ text [1295,560 0×0] "0"  fill=#333
+├─ text-group [22,568 120×24]
+│  ├─ rect [22,568 120×24]  fill=#fff
+│  └─ text [30,584 0×0] "1012800006"  fill=#2980b9
+├─ text-group [142,568 560×24]
+│  ├─ rect [142,568 560×24]  fill=#fff
+│  └─ text [148,584 0×0] "C.OIL BRUN STOP.9CC-EXT40"  fill=#2980b9
+├─ text-group [720,568 110×24]
+│  ├─ rect [720,568 110×24]  fill=#fff
+│  └─ text [730,584 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,568 100×24]
+│  ├─ rect [830,568 100×24]  fill=#fff
+│  └─ text [840,584 0×0] "DOMO"  fill=#333
+├─ group [930,568 50×24]
+│  └─ rect [930,568 50×24]  fill=#fff
+├─ text-group [980,568 65×24]
+│  ├─ rect [980,568 65×24]  fill=#fff
+│  └─ text [1012,584 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,568 55×24]
+│  ├─ rect [1045,568 55×24]  fill=#fff
+│  └─ text [1072,584 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,568 70×24]
+│  ├─ rect [1100,568 70×24]  fill=#fff
+│  └─ text [1135,584 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,568 60×24]
+│  ├─ rect [1170,568 60×24]  fill=#fff
+│  └─ text [1178,584 0×0] "PPN"  fill=#333
+├─ text-group [1230,568 72×24]
+│  ├─ rect [1230,568 72×24]  fill=#fff
+│  └─ text [1295,584 0×0] "0"  fill=#333
+├─ text-group [22,592 120×24]
+│  ├─ rect [22,592 120×24]  fill=#f9f9f9
+│  └─ text [30,608 0×0] "1012800007"  fill=#2980b9
+├─ text-group [142,592 560×24]
+│  ├─ rect [142,592 560×24]  fill=#f9f9f9
+│  └─ text [148,608 0×0] "9CC-EXT55"  fill=#2980b9
+├─ text-group [720,592 110×24]
+│  ├─ rect [720,592 110×24]  fill=#f9f9f9
+│  └─ text [730,608 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,592 100×24]
+│  ├─ rect [830,592 100×24]  fill=#f9f9f9
+│  └─ text [840,608 0×0] "DOMO"  fill=#333
+├─ group [930,592 50×24]
+│  └─ rect [930,592 50×24]  fill=#f9f9f9
+├─ text-group [980,592 65×24]
+│  ├─ rect [980,592 65×24]  fill=#f9f9f9
+│  └─ text [1012,608 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,592 55×24]
+│  ├─ rect [1045,592 55×24]  fill=#f9f9f9
+│  └─ text [1072,608 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,592 70×24]
+│  ├─ rect [1100,592 70×24]  fill=#f9f9f9
+│  └─ text [1135,608 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,592 60×24]
+│  ├─ rect [1170,592 60×24]  fill=#f9f9f9
+│  └─ text [1178,608 0×0] "PPN"  fill=#333
+├─ text-group [1230,592 72×24]
+│  ├─ rect [1230,592 72×24]  fill=#f9f9f9
+│  └─ text [1295,608 0×0] "0"  fill=#333
+├─ text-group [22,616 120×24]
+│  ├─ rect [22,616 120×24]  fill=#fff
+│  └─ text [30,632 0×0] "1012800008"  fill=#2980b9
+├─ text-group [142,616 560×24]
+│  ├─ rect [142,616 560×24]  fill=#fff
+│  └─ text [148,632 0×0] "C.POWER EXTRA.9CC-EXT73"  fill=#2980b9
+├─ text-group [720,616 110×24]
+│  ├─ rect [720,616 110×24]  fill=#fff
+│  └─ text [730,632 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,616 100×24]
+│  ├─ rect [830,616 100×24]  fill=#fff
+│  └─ text [840,632 0×0] "DOMO"  fill=#333
+├─ group [930,616 50×24]
+│  └─ rect [930,616 50×24]  fill=#fff
+├─ text-group [980,616 65×24]
+│  ├─ rect [980,616 65×24]  fill=#fff
+│  └─ text [1012,632 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,616 55×24]
+│  ├─ rect [1045,616 55×24]  fill=#fff
+│  └─ text [1072,632 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,616 70×24]
+│  ├─ rect [1100,616 70×24]  fill=#fff
+│  └─ text [1135,632 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,616 60×24]
+│  ├─ rect [1170,616 60×24]  fill=#fff
+│  └─ text [1178,632 0×0] "PPN"  fill=#333
+├─ text-group [1230,616 72×24]
+│  ├─ rect [1230,616 72×24]  fill=#fff
+│  └─ text [1295,632 0×0] "239.316"  fill=#333
+├─ text-group [22,640 120×24]
+│  ├─ rect [22,640 120×24]  fill=#f9f9f9
+│  └─ text [30,656 0×0] "1012800009"  fill=#2980b9
+├─ text-group [142,640 560×24]
+│  ├─ rect [142,640 560×24]  fill=#f9f9f9
+│  └─ text [148,656 0×0] "C.ENGINE REMETALIZER.9CC-EXT88N"  fill=#2980b9
+├─ text-group [720,640 110×24]
+│  ├─ rect [720,640 110×24]  fill=#f9f9f9
+│  └─ text [730,656 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,640 100×24]
+│  ├─ rect [830,640 100×24]  fill=#f9f9f9
+│  └─ text [840,656 0×0] "DOMO"  fill=#333
+├─ group [930,640 50×24]
+│  └─ rect [930,640 50×24]  fill=#f9f9f9
+├─ text-group [980,640 65×24]
+│  ├─ rect [980,640 65×24]  fill=#f9f9f9
+│  └─ text [1012,656 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,640 55×24]
+│  ├─ rect [1045,640 55×24]  fill=#f9f9f9
+│  └─ text [1072,656 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,640 70×24]
+│  ├─ rect [1100,640 70×24]  fill=#f9f9f9
+│  └─ text [1135,656 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,640 60×24]
+│  ├─ rect [1170,640 60×24]  fill=#f9f9f9
+│  └─ text [1178,656 0×0] "PPN"  fill=#333
+├─ text-group [1230,640 72×24]
+│  ├─ rect [1230,640 72×24]  fill=#f9f9f9
+│  └─ text [1295,656 0×0] "230.769"  fill=#333
+├─ text-group [22,664 120×24]
+│  ├─ rect [22,664 120×24]  fill=#fff
+│  └─ text [30,680 0×0] "1012800010"  fill=#2980b9
+├─ text-group [142,664 560×24]
+│  ├─ rect [142,664 560×24]  fill=#fff
+│  └─ text [148,680 0×0] "C.ENGINE REMETALIZER 20L.9CC-EXT88N20L"  fill=#2980b9
+├─ text-group [720,664 110×24]
+│  ├─ rect [720,664 110×24]  fill=#fff
+│  └─ text [730,680 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,664 100×24]
+│  ├─ rect [830,664 100×24]  fill=#fff
+│  └─ text [840,680 0×0] "DOMO"  fill=#333
+├─ group [930,664 50×24]
+│  └─ rect [930,664 50×24]  fill=#fff
+├─ text-group [980,664 65×24]
+│  ├─ rect [980,664 65×24]  fill=#fff
+│  └─ text [1012,680 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,664 55×24]
+│  ├─ rect [1045,664 55×24]  fill=#fff
+│  └─ text [1072,680 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,664 70×24]
+│  ├─ rect [1100,664 70×24]  fill=#fff
+│  └─ text [1135,680 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,664 60×24]
+│  ├─ rect [1170,664 60×24]  fill=#fff
+│  └─ text [1178,680 0×0] "PPN"  fill=#333
+├─ text-group [1230,664 72×24]
+│  ├─ rect [1230,664 72×24]  fill=#fff
+│  └─ text [1295,680 0×0] "0"  fill=#333
+├─ text-group [22,688 120×24]
+│  ├─ rect [22,688 120×24]  fill=#f9f9f9
+│  └─ text [30,704 0×0] "1012800011"  fill=#2980b9
+├─ text-group [142,688 560×24]
+│  ├─ rect [142,688 560×24]  fill=#f9f9f9
+│  └─ text [148,704 0×0] "C.METAL PROTECT.9CC-EXT99"  fill=#2980b9
+├─ text-group [720,688 110×24]
+│  ├─ rect [720,688 110×24]  fill=#f9f9f9
+│  └─ text [730,704 0×0] "9 CIRCLE"  fill=#333
+├─ text-group [830,688 100×24]
+│  ├─ rect [830,688 100×24]  fill=#f9f9f9
+│  └─ text [840,704 0×0] "DOMO"  fill=#333
+├─ group [930,688 50×24]
+│  └─ rect [930,688 50×24]  fill=#f9f9f9
+├─ text-group [980,688 65×24]
+│  ├─ rect [980,688 65×24]  fill=#f9f9f9
+│  └─ text [1012,704 0×0] "✓"  fill=#27ae60
+├─ text-group [1045,688 55×24]
+│  ├─ rect [1045,688 55×24]  fill=#f9f9f9
+│  └─ text [1072,704 0×0] "✗"  fill=#e74c3c
+├─ text-group [1100,688 70×24]
+│  ├─ rect [1100,688 70×24]  fill=#f9f9f9
+│  └─ text [1135,704 0×0] "✗"  fill=#e74c3c
+├─ text-group [1170,688 60×24]
+│  ├─ rect [1170,688 60×24]  fill=#f9f9f9
+│  └─ text [1178,704 0×0] "PPN"  fill=#333
+├─ text-group [1230,688 72×24]
+│  ├─ rect [1230,688 72×24]  fill=#f9f9f9
+│  └─ text [1295,704 0×0] "0"  fill=#333
+└─ text-group [0,800 1320×28]
+   ├─ rect [0,800 1320×28]  fill=#fff stroke=#ddd
+   └─ text [1160,818 0×0] "20 Rows | 50 Rows"  fill=#2980b9 12px

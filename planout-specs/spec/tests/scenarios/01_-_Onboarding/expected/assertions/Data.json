@@ -17,13 +17,13 @@
     "rationale": "Data-tier SCHEMA block must declare the \"USER\" entity."
   },
   {
-    "id": "schema-declares-task",
+    "id": "schema-declares-task_summary",
     "category": "structural",
     "target": "Data/01_-_Onboarding/UserController.md",
     "check": "schema_block_present",
     "args": {
-      "entity": "TASK"
+      "entity": "TASK_SUMMARY"
     },
-    "rationale": "Data-tier SCHEMA block must declare the \"TASK\" entity."
+    "rationale": "Data-tier SCHEMA block must declare the \"TASK_SUMMARY\" entity."
   }
 ]

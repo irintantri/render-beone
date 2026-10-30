@@ -7,9 +7,9 @@
     "rationale": "Swimlane \"logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-bottom-bar-setup-parsingservice-md-exists",
+    "id": "logic-bottom-bar-setup-documentprocessor-md-exists",
     "category": "structural",
-    "target": "logic/Bottom_Bar_-_Setup/ParsingService.md",
+    "target": "logic/Bottom_Bar_-_Setup/DocumentProcessor.md",
     "check": "file_exists",
     "rationale": "Swimlane \"logic\" emitted this pseudocode file."
   },

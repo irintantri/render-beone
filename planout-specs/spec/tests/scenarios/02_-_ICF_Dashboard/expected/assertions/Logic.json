@@ -7,13 +7,6 @@
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-02-icf-dashboard-dashboardservice-md-exists",
-    "category": "structural",
-    "target": "Logic/02_-_ICF_Dashboard/DashboardService.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
-  },
-  {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
     "target": "Logic/02_-_ICF_Dashboard/DashboardController.md",

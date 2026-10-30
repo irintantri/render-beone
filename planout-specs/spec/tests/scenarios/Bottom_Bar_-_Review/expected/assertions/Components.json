@@ -7,16 +7,16 @@
     "rationale": "Swimlane \"Components\" emitted this pseudocode file."
   },
   {
-    "id": "components-bottom-bar-review-usereviewdocument-md-exists",
+    "id": "components-bottom-bar-review-documentcontroller-md-exists",
     "category": "structural",
-    "target": "Components/Bottom_Bar_-_Review/useReviewDocument.md",
+    "target": "Components/Bottom_Bar_-_Review/DocumentController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Components\" emitted this pseudocode file."
   },
   {
-    "id": "components-bottom-bar-review-apiservice-md-exists",
+    "id": "components-bottom-bar-review-editpage-md-exists",
     "category": "structural",
-    "target": "Components/Bottom_Bar_-_Review/apiService.md",
+    "target": "Components/Bottom_Bar_-_Review/EditPage.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Components\" emitted this pseudocode file."
   }

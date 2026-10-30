@@ -1,15 +1,15 @@
 [
   {
-    "id": "logic-edit-actions-documentservice-md-exists",
+    "id": "logic-edit-actions-documentlogic-md-exists",
     "category": "structural",
-    "target": "logic/Edit_Actions/DocumentService.md",
+    "target": "logic/Edit_Actions/DocumentLogic.md",
     "check": "file_exists",
     "rationale": "Swimlane \"logic\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "logic/Edit_Actions/DocumentService.md",
+    "target": "logic/Edit_Actions/DocumentLogic.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

@@ -1,0 +1,145 @@
+Canvas: 1033×714px
+
+├─ rect [0,0 1033×714]  fill=white
+├─ card-group [30,30 160×48]
+│  ├─ card [30,30 160×48]  fill=#4F39F6 rx=10
+│  ├─ text [110,50 0×0] "👤 Profile: Mike"  fill=white 11px bold
+│  └─ text [110,67 0×0] "GET /api/users/mike"  fill=#C6D2FF 9px
+├─ card-group [30,110 160×48]
+│  ├─ card [30,110 160×48]  fill=#0EA5E9 rx=10
+│  ├─ text [110,130 0×0] "🔗 GET Profile API"  fill=white 11px bold
+│  └─ text [110,147 0×0] "GET /api/users/:id"  fill=#BAE6FD 9px
+├─ card-group [30,190 160×48]
+│  ├─ card [30,190 160×48]  fill=#F59E0B rx=10
+│  ├─ text [110,210 0×0] "✏️ Update Profile"  fill=white 11px bold
+│  └─ text [110,227 0×0] "PUT /api/users/:id"  fill=#FEF3C7 9px
+├─ card-group [30,270 160×48]
+│  ├─ card [30,270 160×48]  fill=#EF4444 rx=10
+│  ├─ text [110,290 0×0] "🗑️ Delete Profile"  fill=white 11px bold
+│  └─ text [110,307 0×0] "DELETE /api/users/:id"  fill=#FEE2E2 9px
+├─ card-group [30,350 160×48]
+│  ├─ card [30,350 160×48]  fill=#8B5CF6 rx=10
+│  ├─ text [110,370 0×0] "🔐 Auth Token"  fill=white 11px bold
+│  └─ text [110,387 0×0] "Bearer JWT Token"  fill=#EDE9FE 9px
+├─ card-group [30,430 160×48]
+│  ├─ card [30,430 160×48]  fill=#10B981 rx=10
+│  ├─ text [110,450 0×0] "✅ Profile Response"  fill=white 11px bold
+│  └─ text [110,467 0×0] "200 OK / 404 Not Found"  fill=#D1FAE5 9px
+├─ card-group [30,510 160×48]
+│  ├─ card [30,510 160×48]  fill=#EC4899 rx=10
+│  ├─ text [110,530 0×0] "🖼️ Avatar Upload"  fill=white 11px bold
+│  └─ text [110,547 0×0] "POST /api/users/:id/avatar"  fill=#FCE7F3 9px
+├─ group [110,78 0×432]
+│  ├─ divider [110,78 0×32]  stroke=#4F39F6
+│  ├─ divider [110,158 0×32]  stroke=#0EA5E9
+│  ├─ divider [110,238 0×32]  stroke=#F59E0B
+│  ├─ divider [110,318 0×32]  stroke=#EF4444
+│  ├─ divider [110,398 0×32]  stroke=#8B5CF6
+│  └─ divider [110,478 0×32]  stroke=#10B981
+└─ text-group [0,0 1033×714]
+   ├─ rect [0,0 1033×714]  fill=white
+   ├─ card-group [30,30 160×48]
+   │  ├─ card [30,30 160×48]  fill=#4F39F6 rx=10
+   │  ├─ text [110,50 0×0] "👤 Profile: Mike"  fill=white 11px bold
+   │  └─ text [110,67 0×0] "GET /api/users/mike"  fill=#C6D2FF 9px
+   ├─ card-group [30,110 160×48]
+   │  ├─ card [30,110 160×48]  fill=#0EA5E9 rx=10
+   │  ├─ text [110,130 0×0] "🔗 GET Profile API"  fill=white 11px bold
+   │  └─ text [110,147 0×0] "GET /api/users/:id"  fill=#BAE6FD 9px
+   ├─ card-group [30,190 160×48]
+   │  ├─ card [30,190 160×48]  fill=#F59E0B rx=10
+   │  ├─ text [110,210 0×0] "✏️ Update Profile"  fill=white 11px bold
+   │  └─ text [110,227 0×0] "PUT /api/users/:id"  fill=#FEF3C7 9px
+   ├─ card-group [30,270 160×48]
+   │  ├─ card [30,270 160×48]  fill=#EF4444 rx=10
+   │  ├─ text [110,290 0×0] "🗑️ Delete Profile"  fill=white 11px bold
+   │  └─ text [110,307 0×0] "DELETE /api/users/:id"  fill=#FEE2E2 9px
+   ├─ card-group [30,350 160×48]
+   │  ├─ card [30,350 160×48]  fill=#8B5CF6 rx=10
+   │  ├─ text [110,370 0×0] "🔐 Auth Token"  fill=white 11px bold
+   │  └─ text [110,387 0×0] "Bearer JWT Token"  fill=#EDE9FE 9px
+   ├─ card-group [30,430 160×48]
+   │  ├─ card [30,430 160×48]  fill=#10B981 rx=10
+   │  ├─ text [110,450 0×0] "✅ Profile Response"  fill=white 11px bold
+   │  └─ text [110,467 0×0] "200 OK / 404 Not Found"  fill=#D1FAE5 9px
+   ├─ card-group [30,510 160×48]
+   │  ├─ card [30,510 160×48]  fill=#EC4899 rx=10
+   │  ├─ text [110,530 0×0] "🖼️ Avatar Upload"  fill=white 11px bold
+   │  └─ text [110,547 0×0] "POST /api/users/:id/avatar"  fill=#FCE7F3 9px
+   ├─ group [110,78 0×432]
+   │  ├─ divider [110,78 0×32]  stroke=#4F39F6
+   │  ├─ divider [110,158 0×32]  stroke=#0EA5E9
+   │  ├─ divider [110,238 0×32]  stroke=#F59E0B
+   │  ├─ divider [110,318 0×32]  stroke=#EF4444
+   │  ├─ divider [110,398 0×32]  stroke=#8B5CF6
+   │  └─ divider [110,478 0×32]  stroke=#10B981
+   ├─ image-group [0,0 517×714]
+   │  ├─ image-placeholder [0,0 517×714]  fill=gradient(image)
+   │  ├─ group [35,35 447×609]
+   │  │  ├─ shape [35,35 112×112]  fill=white
+   │  │  ├─ shape [314,476 168×168]  fill=white
+   │  │  └─ group [146,245 224×224]
+   │  │     └─ shape [146,245 224×224]  fill=white
+   │  ├─ shape [178,162 160×200]  fill=white
+   │  ├─ shape [186,170 144×184]  fill=white
+   │  ├─ text-path [202,190 112×4]  fill=white
+   │  ├─ text-path [202,202 88×4]  fill=white
+   │  ├─ text-path [202,222 112×3]  fill=white
+   │  ├─ text-path [202,232 100×3]  fill=white
+   │  ├─ text-path [202,242 108×3]  fill=white
+   │  ├─ text-path [202,262 112×3]  fill=white
+   │  ├─ text-path [202,272 76×3]  fill=white
+   │  ├─ text-path [202,282 96×3]  fill=white
+   │  ├─ text-path [202,310 80×2]  fill=white
+   │  ├─ text-path [202,318 60×2]  fill=white
+   │  ├─ shape [304,178 52×52]  fill=white
+   │  ├─ shape [310,184 40×40]  fill=white
+   │  ├─ icon [326,192 8×24]  fill=white
+   │  ├─ icon [318,200 24×8]  fill=white
+   │  ├─ shape [176,304 36×36]  fill=#10B981
+   │  ├─ icon [186,316 16×12]  stroke=white
+   │  ├─ icon [284,309 16×16]  fill=white
+   │  ├─ icon [280,324 24×12]  stroke=white
+   │  ├─ icon [310,304 16×16]  fill=white
+   │  ├─ icon [306,319 24×12]  stroke=white
+   │  ├─ shape [228,147 40×45]  fill=white
+   │  ├─ icon [240,164 18×12]  stroke=white
+   │  ├─ text-path [204,427 109×17]  fill=white
+   │  ├─ text-path [126,464 264×52]  fill=#C6D2FF
+   │  ├─ text-path [157,546 53×16]  fill=white
+   │  ├─ text-path [161,571 46×8]  fill=#A3B3FF
+   │  ├─ rect [0,0 1×28]  fill=#7C86FF
+   │  ├─ shape [249,546 42×16]  fill=white
+   │  ├─ text-path [241,571 58×10]  fill=#A3B3FF
+   │  ├─ rect [0,0 1×28]  fill=#7C86FF
+   │  ├─ icon [332,546 24×16]  fill=white
+   │  └─ icon [329,571 31×8]  fill=#A3B3FF
+   ├─ rect [0,0 517×714]  fill=#F9FAFB
+   ├─ group [740,191 70×70]
+   │  ├─ shape [740,191 70×70]  fill=#4F39F6
+   │  └─ icon [761,218 29×15]  fill=white
+   ├─ text-path [675,280 203×20]  fill=#101828
+   ├─ text-path [659,313 97×23]  fill=#E0E7FF
+   ├─ text-path [658,312 99×25]  fill=#C6D2FF
+   ├─ icon [676,328 4×0]  stroke=#432DD7
+   ├─ icon [672,321 7×7]  stroke=#432DD7
+   ├─ text-path [690,321 54×8]  fill=#432DD7
+   ├─ icon [764,325 2×2]  fill=#D1D5DC
+   ├─ text-path [774,313 116×23]  fill=#CBFBF1
+   ├─ text-path [773,312 118×25]  fill=#96F7E4
+   ├─ group [788,320 7×9]
+   │  ├─ icon [788,320 7×9]  stroke=#00786F
+   │  ├─ icon [792,320 3×3]  stroke=#00786F
+   │  ├─ icon [789,323 1×0]  stroke=#00786F
+   │  ├─ icon [789,325 4×0]  stroke=#00786F
+   │  └─ icon [789,327 4×0]  stroke=#00786F
+   ├─ text-path [805,321 73×8]  fill=#00786F
+   ├─ text-group [606,363 338×74]
+   │  ├─ shape [607,364 336×72]  fill=white
+   │  ├─ shape [606,363 338×74]  fill=#E5E7EB
+   │  ├─ text-path [639,385 218×35]  fill=#4A5565
+   │  └─ text-path [702,384 208×11]  fill=#101828
+   ├─ text-path [607,457 336×39]  fill=#10B981
+   ├─ text-path [697,471 133×9]  fill=white
+   ├─ icon [845,473 4×7]  stroke=white
+   └─ text-path [609,513 331×10]  fill=#99A1AF

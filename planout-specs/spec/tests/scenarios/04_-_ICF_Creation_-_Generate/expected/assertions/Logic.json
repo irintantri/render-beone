@@ -1,22 +1,22 @@
 [
   {
-    "id": "logic-04-icf-creation-generate-usegenerationstream-md-exists",
+    "id": "logic-04-icf-creation-generate-generationservice-md-exists",
     "category": "structural",
-    "target": "Logic/04_-_ICF_Creation_-_Generate/useGenerationStream.md",
+    "target": "Logic/04_-_ICF_Creation_-_Generate/GenerationService.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-04-icf-creation-generate-generationprogresscontroller-md-exists",
+    "id": "logic-04-icf-creation-generate-editrefinecontroller-md-exists",
     "category": "structural",
-    "target": "Logic/04_-_ICF_Creation_-_Generate/GenerationProgressController.md",
+    "target": "Logic/04_-_ICF_Creation_-_Generate/EditRefineController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "Logic/04_-_ICF_Creation_-_Generate/useGenerationStream.md",
+    "target": "Logic/04_-_ICF_Creation_-_Generate/GenerationService.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

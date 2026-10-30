@@ -12,5 +12,47 @@
     "target": "Frontend/01_-_Onboarding/hooks_useUserContext.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-components-welcomeheader-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/components_WelcomeHeader.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-components-tasksummary-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/components_TaskSummary.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-components-loadingstate-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/components_LoadingState.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-components-continuebutton-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/components_ContinueButton.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-dashboardnavigation-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/DashboardNavigation.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
+  },
+  {
+    "id": "frontend-01-onboarding-landingpage-md-exists",
+    "category": "structural",
+    "target": "Frontend/01_-_Onboarding/LandingPage.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
   }
 ]

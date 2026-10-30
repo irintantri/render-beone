@@ -1,15 +1,8 @@
 [
   {
-    "id": "components-edit-actions-editactionbar-md-exists",
+    "id": "components-edit-actions-documenteditbar-md-exists",
     "category": "structural",
-    "target": "COMPONENTS/Edit_Actions/EditActionBar.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
-  },
-  {
-    "id": "components-edit-actions-sectionservice-md-exists",
-    "category": "structural",
-    "target": "COMPONENTS/Edit_Actions/SectionService.md",
+    "target": "COMPONENTS/Edit_Actions/DocumentEditBar.md",
     "check": "file_exists",
     "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
   },
@@ -17,6 +10,13 @@
     "id": "components-edit-actions-previewmodal-md-exists",
     "category": "structural",
     "target": "COMPONENTS/Edit_Actions/PreviewModal.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-edit-actions-documentlogic-md-exists",
+    "category": "structural",
+    "target": "COMPONENTS/Edit_Actions/DocumentLogic.md",
     "check": "file_exists",
     "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
   }

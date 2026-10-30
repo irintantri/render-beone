@@ -1,23 +1,25 @@
-// Custom hook to manage the state of the user and notifications
-FUNCTION useUserContext():
-    // State variables
-    DEFINE userProfile AS { name, role, avatarInitials }
-    DEFINE notificationCount AS INTEGER
-    DEFINE isLoading AS BOOLEAN
-    DEFINE error AS BOOLEAN
+/**
+ * Node: `UserContext` (7798724b-08a3-4855-a8b5-02331aadbf2d)
+ * Interface for Data Layer
+ */
+Interface UserContextDTO {
+    id: string,
+    firstName: string,
+    lastName: string,
+    role: string,
+    secondaryRole: string,
+    taskCounts: number
+}
 
-    // Fetch data from the backend
-    FUNCTION fetchUserData():
-        SET isLoading = TRUE
-        TRY:
-            RESPONSE = CALL GET "/api/user/context"
-            SET userProfile = RESPONSE.data.user
-            SET notificationCount = RESPONSE.data.unreadNotifications
-        CATCH:
-            SET error = TRUE
-            // Fallbacks as per requirements
-            SET userProfile = { name: "User Name", role: "ICF Author", avatarInitials: "UN" }
-        FINALLY:
-            SET isLoading = FALSE
-
-    RETURN { userProfile, notificationCount, isLoading }
+Function useUserContext() {
+    // Logic: Fetch from /api/user/context
+    // Ambiguity Flag: "taskCounts" is listed in DTO but "unread badge count" is requested in UI; 
+    // assuming taskCounts maps to the notification badge.
+    
+    Try:
+        response = API.get("/api/user/context")
+        return response.data as UserContextDTO
+    Catch:
+        return DefaultUserContext // { firstName: "User", lastName: "Name", role: "ICF Author", ... }
+}
+Notes covered: UserContext DTO fields (id, firstName, lastName, role, secondaryRole, taskCounts).

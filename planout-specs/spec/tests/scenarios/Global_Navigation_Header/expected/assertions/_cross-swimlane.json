@@ -2,7 +2,7 @@
   {
     "id": "feature-has-files",
     "category": "cross-swimlane",
-    "target": "Data/Global_Navigation_Header/UserContextService.md",
+    "target": "Data/Global_Navigation_Header/UserContextRepository.md",
     "check": "file_exists",
     "rationale": "Feature must produce at least one file across all swimlanes."
   }

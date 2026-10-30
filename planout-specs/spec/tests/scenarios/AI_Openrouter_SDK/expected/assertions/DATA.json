@@ -7,9 +7,9 @@
     "rationale": "Swimlane \"DATA\" emitted this pseudocode file."
   },
   {
-    "id": "data-ai-openrouter-sdk-openrouterservice-md-exists",
+    "id": "data-ai-openrouter-sdk-sectionrepository-md-exists",
     "category": "structural",
-    "target": "DATA/AI_Openrouter_SDK/OpenRouterService.md",
+    "target": "DATA/AI_Openrouter_SDK/SectionRepository.md",
     "check": "file_exists",
     "rationale": "Swimlane \"DATA\" emitted this pseudocode file."
   },

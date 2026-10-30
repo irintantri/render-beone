@@ -1,36 +1,29 @@
 [
   {
-    "id": "data-comment-actions-reviewerrepository-md-exists",
+    "id": "data-comment-actions-datalayer-md-exists",
     "category": "structural",
-    "target": "Data/Comment_Actions/ReviewerRepository.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"Data\" emitted this pseudocode file."
-  },
-  {
-    "id": "data-comment-actions-commentrepository-md-exists",
-    "category": "structural",
-    "target": "Data/Comment_Actions/CommentRepository.md",
+    "target": "Data/Comment_Actions/DataLayer.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Data\" emitted this pseudocode file."
   },
   {
     "id": "schema-declares-reviewer",
     "category": "structural",
-    "target": "Data/Comment_Actions/ReviewerRepository.md",
+    "target": "Data/Comment_Actions/DataLayer.md",
     "check": "schema_block_present",
     "args": {
-      "entity": "REVIEWER"
+      "entity": "Reviewer"
     },
-    "rationale": "Data-tier SCHEMA block must declare the \"REVIEWER\" entity."
+    "rationale": "Data-tier SCHEMA block must declare the \"Reviewer\" entity."
   },
   {
     "id": "schema-declares-comment",
     "category": "structural",
-    "target": "Data/Comment_Actions/ReviewerRepository.md",
+    "target": "Data/Comment_Actions/DataLayer.md",
     "check": "schema_block_present",
     "args": {
-      "entity": "COMMENT"
+      "entity": "Comment"
     },
-    "rationale": "Data-tier SCHEMA block must declare the \"COMMENT\" entity."
+    "rationale": "Data-tier SCHEMA block must declare the \"Comment\" entity."
   }
 ]

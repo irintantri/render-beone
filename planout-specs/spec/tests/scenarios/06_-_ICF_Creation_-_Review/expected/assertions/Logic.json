@@ -1,15 +1,29 @@
 [
   {
-    "id": "logic-06-icf-creation-review-documentreviewservice-md-exists",
+    "id": "logic-06-icf-creation-review-auditcontroller-md-exists",
     "category": "structural",
-    "target": "Logic/06_-_ICF_Creation_-_Review/DocumentReviewService.md",
+    "target": "Logic/06_-_ICF_Creation_-_Review/AuditController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-06-icf-creation-review-documentcontroller-md-exists",
+    "category": "structural",
+    "target": "Logic/06_-_ICF_Creation_-_Review/DocumentController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-06-icf-creation-review-auditcontroller-md-exists",
+    "category": "structural",
+    "target": "Logic/06_-_ICF_Creation_-_Review/AuditController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "Logic/06_-_ICF_Creation_-_Review/DocumentReviewService.md",
+    "target": "Logic/06_-_ICF_Creation_-_Review/AuditController.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

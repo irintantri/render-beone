@@ -1,19 +1,5 @@
 [
   {
-    "id": "components-comment-actions-commentpanel-md-exists",
-    "category": "structural",
-    "target": "components/Comment_Actions/CommentPanel.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"components\" emitted this pseudocode file."
-  },
-  {
-    "id": "components-comment-actions-commentcard-md-exists",
-    "category": "structural",
-    "target": "components/Comment_Actions/CommentCard.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"components\" emitted this pseudocode file."
-  },
-  {
     "id": "components-comment-actions-approvalgate-md-exists",
     "category": "structural",
     "target": "components/Comment_Actions/ApprovalGate.md",
@@ -21,9 +7,37 @@
     "rationale": "Swimlane \"components\" emitted this pseudocode file."
   },
   {
-    "id": "components-comment-actions-commentservice-md-exists",
+    "id": "components-comment-actions-submitforapprovalbutton-md-exists",
     "category": "structural",
-    "target": "components/Comment_Actions/CommentService.md",
+    "target": "components/Comment_Actions/SubmitForApprovalButton.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-comment-actions-commentspanel-md-exists",
+    "category": "structural",
+    "target": "components/Comment_Actions/CommentsPanel.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-comment-actions-commentactions-logic-md-exists",
+    "category": "structural",
+    "target": "components/Comment_Actions/CommentActions.logic.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-comment-actions-aidocumenteditor-md-exists",
+    "category": "structural",
+    "target": "components/Comment_Actions/AIDocumentEditor.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"components\" emitted this pseudocode file."
+  },
+  {
+    "id": "components-comment-actions-addcomment-md-exists",
+    "category": "structural",
+    "target": "components/Comment_Actions/AddComment.md",
     "check": "file_exists",
     "rationale": "Swimlane \"components\" emitted this pseudocode file."
   }

@@ -7,16 +7,9 @@
     "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
   },
   {
-    "id": "components-ai-document-editor-aiservice-md-exists",
+    "id": "components-ai-document-editor-aidocumentlogic-md-exists",
     "category": "structural",
-    "target": "COMPONENTS/AI_Document_Editor/AIService.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
-  },
-  {
-    "id": "components-ai-document-editor-quickprompts-md-exists",
-    "category": "structural",
-    "target": "COMPONENTS/AI_Document_Editor/QuickPrompts.md",
+    "target": "COMPONENTS/AI_Document_Editor/AIDocumentLogic.md",
     "check": "file_exists",
     "rationale": "Swimlane \"COMPONENTS\" emitted this pseudocode file."
   }

@@ -1,15 +1,22 @@
 [
   {
-    "id": "logic-bottom-bar-review-reviewbottombarlogic-md-exists",
+    "id": "logic-bottom-bar-review-documentcontroller-md-exists",
     "category": "structural",
-    "target": "Logic/Bottom_Bar_-_Review/ReviewBottomBarLogic.md",
+    "target": "Logic/Bottom_Bar_-_Review/DocumentController.md",
+    "check": "file_exists",
+    "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
+  },
+  {
+    "id": "logic-bottom-bar-review-previewcontroller-md-exists",
+    "category": "structural",
+    "target": "Logic/Bottom_Bar_-_Review/PreviewController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "Logic/Bottom_Bar_-_Review/ReviewBottomBarLogic.md",
+    "target": "Logic/Bottom_Bar_-_Review/DocumentController.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"

@@ -1,36 +1,36 @@
 [
   {
-    "id": "logic-03-icf-creation-setup-protocolservice-md-exists",
+    "id": "logic-03-icf-creation-setup-protocolcontroller-md-exists",
     "category": "structural",
-    "target": "Logic/03_-_ICF_Creation_-_Setup/ProtocolService.md",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/ProtocolController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-03-icf-creation-setup-templateservice-md-exists",
+    "id": "logic-03-icf-creation-setup-referencecontroller-md-exists",
     "category": "structural",
-    "target": "Logic/03_-_ICF_Creation_-_Setup/TemplateService.md",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/ReferenceController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-03-icf-creation-setup-referencedocumentservice-md-exists",
+    "id": "logic-03-icf-creation-setup-templatecontroller-md-exists",
     "category": "structural",
-    "target": "Logic/03_-_ICF_Creation_-_Setup/ReferenceDocumentService.md",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/TemplateController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
-    "id": "logic-03-icf-creation-setup-wizardlogic-md-exists",
+    "id": "logic-03-icf-creation-setup-protocolcontroller-md-exists",
     "category": "structural",
-    "target": "Logic/03_-_ICF_Creation_-_Setup/WizardLogic.md",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/ProtocolController.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Logic\" emitted this pseudocode file."
   },
   {
     "id": "logic-has-api-payload-block",
     "category": "behavioural",
-    "target": "Logic/03_-_ICF_Creation_-_Setup/ProtocolService.md",
+    "target": "Logic/03_-_ICF_Creation_-_Setup/ProtocolController.md",
     "check": "source_contains_string",
     "args": {
       "needle": "<!-- API_PAYLOAD"
