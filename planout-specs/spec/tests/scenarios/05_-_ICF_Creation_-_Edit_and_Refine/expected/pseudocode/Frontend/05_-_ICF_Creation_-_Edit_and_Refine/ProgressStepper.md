@@ -1,44 +1,47 @@
 /**
- * Node: Progress Stepper (id: 01d48ed8-ec1d-41a0-83b1-f26ac6bfcb2a)
+ * Node: Progress Stepper (01d48ed8-ec1d-41a0-83b1-f26ac6bfcb2a)
  * Description: Visual indicator of the ICF creation workflow stages.
- * Asset: assets/ecabe235-1192-4f14-bb90-3389f1275208.svg
+ * 
+ * Requirements:
+ * - Display current step in the ICF creation process.
+ * - Indicate completion status for previous steps.
+ * - Allow navigation to previous completed steps.
+ * - Disable navigation to future steps.
  */
 
-interface ProgressStepperProps {
-  currentStep: number; // 1: Setup, 2: Generate, 3: Edit/Refine, 4: Review
-  totalSteps: number; // Fixed at 4
+Component ProgressStepper {
+  // State derived from Wrapper Shell (337f2a79-f0cd-46a5-a04e-422fcf98bb87)
+  // Props: currentStep: number, totalSteps: number, completedSteps: Array<number>
+
+  Render {
+    Container (role="navigation", aria-label="ICF Creation Progress") {
+      Map(steps) { (step, index) =>
+        StepItem {
+          StatusIcon: 
+            If (index < currentStep) -> "Completed"
+            Else If (index == currentStep) -> "Active"
+            Else -> "Pending"
+          
+          Label: step.name
+          
+          // Interaction:
+          OnClick: If (index < currentStep) -> NavigateTo(step.path)
+          Disabled: index > currentStep
+        }
+      }
+    }
+  }
+
+  // Validation/Error States:
+  // - If currentStep is out of bounds, default to 0.
+  // - If navigation fails, display toast notification "Unable to navigate to step".
+
+  // Side Effects:
+  // - Updates URL path on successful navigation.
 }
 
-export const ProgressStepper = ({ currentStep, totalSteps = 4 }: ProgressStepperProps) => {
-  const steps = ["Setup", "Generate", "Edit & Refine", "Review"];
-
-  return (
-    <nav aria-label="ICF Creation Progress">
-      <ol>
-        {steps.map((label, index) => {
-          const stepNumber = index + 1;
-          const isCompleted = stepNumber < currentStep;
-          const isCurrent = stepNumber === currentStep;
-
-          return (
-            <li key={label} className={isCurrent ? "active" : isCompleted ? "completed" : "pending"}>
-              <span className="step-indicator">{isCompleted ? "✓" : stepNumber}</span>
-              <span className="step-label">{label}</span>
-            </li>
-          );
-        })}
-      </ol>
-    </nav>
-  );
-};
-
-/**
- * Logic:
- * - Happy Path: Renders 4 steps. Highlights current step based on state.
- * - Validation: None (read-only display component).
- * - Empty State: N/A (always initialized with 4 steps).
- * - Side Effects: None.
- */
-
 // Notes covered:
-// - Visual indicator of the ICF creation workflow stages.
+// - Display current step in the ICF creation process.
+// - Indicate completion status for previous steps.
+// - Allow navigation to previous completed steps.
+// - Disable navigation to future steps.

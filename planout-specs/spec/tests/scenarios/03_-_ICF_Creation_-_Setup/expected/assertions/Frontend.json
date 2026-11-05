@@ -1,15 +1,8 @@
 [
   {
-    "id": "frontend-03-icf-creation-setup-setuppage-md-exists",
+    "id": "frontend-03-icf-creation-setup-icfsetuppage-md-exists",
     "category": "structural",
-    "target": "Frontend/03_-_ICF_Creation_-_Setup/SetupPage.md",
-    "check": "file_exists",
-    "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
-  },
-  {
-    "id": "frontend-03-icf-creation-setup-useprotocolsearch-md-exists",
-    "category": "structural",
-    "target": "Frontend/03_-_ICF_Creation_-_Setup/useProtocolSearch.md",
+    "target": "Frontend/03_-_ICF_Creation_-_Setup/ICFSetupPage.md",
     "check": "file_exists",
     "rationale": "Swimlane \"Frontend\" emitted this pseudocode file."
   }

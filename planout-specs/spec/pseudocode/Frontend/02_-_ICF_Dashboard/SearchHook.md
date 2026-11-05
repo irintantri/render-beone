@@ -2,16 +2,17 @@ import { useState, useEffect } from 'react';
 
 export const useSearch = () => {
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState([]);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
-    if (query.length > 0) {
-      // Trigger: GET /api/search?protocolName={query}&ICFName={query}
-      // Logic lane handles the filtering logic
+    if (!query) {
+      // Fetch default sorted list
+      fetch('/api/protocol'); 
     } else {
-      // Revert to default list
+      // Triggered by "on search" (d4fe475f-afe4-4601-bef2-f3305e96c104)
+      fetch(`/api/search?protocolName=${query}&ICFName=${query}`);
     }
   }, [query]);
 
-  return { query, setQuery, results };
+  return { query, setQuery, data };
 };

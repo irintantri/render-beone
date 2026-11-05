@@ -2,22 +2,17 @@
 // Asset: assets/ecabe235-1192-4f14-bb90-3389f1275208.svg
 
 Component DocumentSectionCards:
-  Props: documentId (uuid)
-  State: sections (Array), loading (boolean), aiProcessing (boolean)
-
-  Effect: On mount, call GET /api/documents/:id with {id: documentId}
-    - Success: Set sections from response.content (parsed into sections)
-    - Error: Display error toast
-
+  State: documentData (from GET /api/documents/:id)
+  
   Render:
-    For each section in sections:
+    For each section in documentData.content:
       Card:
         Header:
-          - Text: "{section.number}. {section.title}" (Bold)
-          - Badge: "AI Generated" (if section.is_ai_generated <!-- ORPHAN_FIELD: is_ai_generated -->)
-          - Button: "Edit with AI" (onClick: trigger Select Section)
+          - Text: Section number + Title (stripped of leading number, bold)
+          - Badge: "AI Generated" + sparkles icon (conditional: if metadata.is_ai_generated <!-- ORPHAN_FIELD: is_ai_generated -->)
+          - Button: "Edit with AI" (sparkles icon) -> onClick: trigger Select Section(section)
         Body:
-          - If aiProcessing: Overlay with spinner + "AI is updating this section…"
-          - Else: <IcfMarkdown content={section.content} />
+          - If isProcessing: Overlay(spinner, "AI is updating this section…")
+          - Else: IcfMarkdown(section.content)
 
-  Notes covered: Render document per section, Header details (number, title, badge, button), Body (read mode), IcfMarkdown usage, AI generating overlay, Edit with AI button trigger.
+  Notes covered: Render document per section, Header components (number, title, badge, button), Body (read mode, IcfMarkdown), AI generating overlay (spinner, message), Edit with AI button trigger.

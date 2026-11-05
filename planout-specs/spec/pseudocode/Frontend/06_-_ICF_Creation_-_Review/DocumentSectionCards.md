@@ -1,57 +1,54 @@
 /**
  * Node: Document Section Cards (52049b0f-baf8-46c4-846e-c9c20e875297)
  * Description: Renders document sections as individual cards.
+ * Inputs: Receives 'content' (JSON/Markdown string) from GET /api/documents/:id (Logic lane).
  */
 
-import { IcfMarkdown } from './IcfMarkdown'; // Assumed component for content rendering
+Component DocumentSectionCards(props: { documentId: string }) {
+  // State: Fetch document data from Logic lane
+  const { data, isLoading, error } = useQuery({
+    queryKey: ['document', props.documentId],
+    queryFn: () => fetch('GET /api/documents/:id', { params: { id: props.documentId } })
+  });
 
-interface SectionCardProps {
-  sectionNumber: string;
-  sectionTitle: string;
-  isAiGenerated: boolean;
-  content: string;
-}
+  // Logic: Parse 'content' field from Document entity
+  // Assuming 'content' is a structured JSON string containing sections
+  const sections = JSON.parse(data.content || '[]');
 
-export const DocumentSectionCards = ({ documentData }: { documentData: Document }) => {
-  // Happy Path: Map document.content (parsed into sections) to SectionCard components
-  // Validation: If content is null/empty, render "No content available" state
-  // Side Effects: None; purely presentational based on props from GET /api/documents/:id
-  
+  if (isLoading) return <Spinner />;
+  if (error) return <ErrorMessage message="Failed to load document sections" />;
+
   return (
     <div className="section-container">
-      {parseSections(documentData.content).map((section) => (
-        <SectionCard 
-          key={section.id}
-          sectionNumber={section.number}
-          sectionTitle={section.title}
-          isAiGenerated={section.isAiGenerated}
-          content={section.content}
-        />
+      {sections.map((section) => (
+        <Card key={section.id}>
+          <CardHeader>
+            <span className="section-number">{section.number}</span>
+            <span className="section-title"><strong>{stripLeadingNumber(section.title)}</strong></span>
+            {section.isAiGenerated && (
+              <Badge className="ai-label">
+                <SparklesIcon /> AI Generated <!-- ORPHAN_FIELD: isAiGenerated -->
+              </Badge>
+            )}
+          </CardHeader>
+          <CardBody>
+            <IcfMarkdown content={section.body} />
+          </CardBody>
+        </Card>
       ))}
     </div>
   );
-};
+}
 
-const SectionCard = ({ sectionNumber, sectionTitle, isAiGenerated, content }: SectionCardProps) => (
-  <div className="card">
-    <div className="card-header">
-      <span className="section-title">
-        <strong>{sectionNumber} {sectionTitle}</strong>
-      </span>
-      {isAiGenerated && (
-        <span className="badge-ai">
-          <SparklesIcon /> AI Generated
-        </span>
-      )}
-    </div>
-    <div className="card-body">
-      <IcfMarkdown content={content} />
-    </div>
-  </div>
-);
+/**
+ * Helper: Strips leading numbers (e.g., "1. Introduction" -> "Introduction")
+ */
+function stripLeadingNumber(title: string): string {
+  return title.replace(/^\d+\.\s*/, '');
+}
 
 // Notes covered:
-// - Render document per section as a card
-// - Header: Section number, section title (bold, leading number stripped)
-// - AI label badge (if present, with sparkles icon)
-// - Body (read mode): Rendered via IcfMarkdown component
+// - Render document per section as a card.
+// - Header: Section number, bold section title (leading number stripped).
+// - AI label badge with sparkles icon if present.
+// - Body: Read mode using IcfMarkdown component.
